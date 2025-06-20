@@ -1,0 +1,2200 @@
+;  Settings of effects by Gepard Shield
+;  0 - effect is always inactive
+;  1 - effect is always active
+;  2 - effect is active only if effects aren't disabled by command "/effect"
+;  3 - effect is active only if effects are disabled by command "/effect"
+[EFFECTS::MODE]
+;  Regular Hit # EF_HIT1
+Effect_0000 = 2
+;  Bash # EF_HIT2
+Effect_0001 = 2
+;  Melee Skill Hit # EF_HIT3
+Effect_0002 = 2
+;  Melee Skill Hit # EF_HIT4
+Effect_0003 = 2
+;  Melee Skill Hit # EF_HIT5
+Effect_0004 = 2
+;  Melee Skill Hit # EF_HIT6
+Effect_0005 = 2
+;  Being Warped # EF_ENTRY
+Effect_0006 = 1
+;  Item Heal effect # EF_EXIT
+Effect_0007 = 2
+;  Yellow Ripple Effect # EF_WARP
+Effect_0008 = 1
+;  Different Type of Heal # EF_ENHANCE
+Effect_0009 = 2
+;  Mammonite # EF_COIN
+Effect_0010 = 2
+;  Endure # EF_ENDURE
+Effect_0011 = 2
+;  Yellow cast aura # EF_BEGINSPELL
+Effect_0012 = 2
+;  Blue Box # EF_GLASSWALL
+Effect_0013 = 2
+;  Blue restoring effect # EF_HEALSP
+Effect_0014 = 2
+;  Soul Strike # EF_SOULSTRIKE
+Effect_0015 = 2
+;  Hide # EF_BASH
+Effect_0016 = 1
+;  Magnum Break # EF_MAGNUMBREAK
+Effect_0017 = 2
+;  Steal # EF_STEAL
+Effect_0018 = 2
+;  (Invalid) # EF_HIDING
+Effect_0019 = 1
+;  Envenom/Poison # EF_PATTACK
+Effect_0020 = 2
+;  Detoxify # EF_DETOXICATION
+Effect_0021 = 1
+;  Sight # EF_SIGHT
+Effect_0022 = 1
+;  Stone Curse # EF_STONECURSE
+Effect_0023 = 1
+;  Fire Ball # EF_FIREBALL
+Effect_0024 = 2
+;  Fire Wall # EF_FIREWALL
+Effect_0025 = 2
+;  A sound (a swipe?) # EF_ICEARROW
+Effect_0026 = 2
+;  Frost Diver (Traveling to Target) # EF_FROSTDIVER
+Effect_0027 = 2
+;  Frost Diver (Hitting) # EF_FROSTDIVER2
+Effect_0028 = 2
+;  Lightning Bolt # EF_LIGHTBOLT
+Effect_0029 = 2
+;  Thunder Storm # EF_THUNDERSTORM
+Effect_0030 = 2
+;  Weird bubbles launching from feet # EF_FIREARROW
+Effect_0031 = 2
+;  Small clustered explosions # EF_NAPALMBEAT
+Effect_0032 = 2
+;  Ruwach # EF_RUWACH
+Effect_0033 = 1
+;  Old Map Exit Animation (unused) # EF_TELEPORTATION
+Effect_0034 = 2
+;  Old Warp Portal (unused) # EF_READYPORTAL
+Effect_0035 = 2
+;  Old Warp Portal (unused) # EF_PORTAL
+Effect_0036 = 2
+;  AGI Up # EF_INCAGILITY
+Effect_0037 = 1
+;  AGI Down # EF_DECAGILITY
+Effect_0038 = 1
+;  Aqua Benedicta # EF_AQUA
+Effect_0039 = 2
+;  Signum Crucis # EF_SIGNUM
+Effect_0040 = 2
+;  Angelus # EF_ANGELUS
+Effect_0041 = 1
+;  Blessing # EF_BLESSING
+Effect_0042 = 1
+;  Dex + Agi Up # EF_INCAGIDEX
+Effect_0043 = 1
+;  Little Fog Smoke. # EF_SMOKE
+Effect_0044 = 2
+;  Faint Little Ball Things. # EF_FIREFLY
+Effect_0045 = 2
+;  Sand Wind # EF_SANDWIND
+Effect_0046 = 2
+;  Torch # EF_TORCH
+Effect_0047 = 2
+;  Small Piece of Glass # EF_SPRAYPOND
+Effect_0048 = 2
+;  Firebolt/Wall Hits # EF_FIREHIT
+Effect_0049 = 2
+;  Spinning Fire Thing # EF_FIRESPLASHHIT
+Effect_0050 = 2
+;  Ice Elemental Hit # EF_COLDHIT
+Effect_0051 = 2
+;  Wind Elemental Hit # EF_WINDHIT
+Effect_0052 = 2
+;  Puff of Purpulish Smoke? # EF_POISONHIT
+Effect_0053 = 2
+;  Cast Initiation Aura (Water Element) # EF_BEGINSPELL2
+Effect_0054 = 2
+;  Cast Initiation Aura (Fire Element) # EF_BEGINSPELL3
+Effect_0055 = 2
+;  Cast Initiation Aura (Wind Element) # EF_BEGINSPELL4
+Effect_0056 = 2
+;  Cast Initiation Aura (Earth Element) # EF_BEGINSPELL5
+Effect_0057 = 2
+;  Cast Initiation Aura (Holy Element) # EF_BEGINSPELL6
+Effect_0058 = 2
+;  Cast Initiation Aura (Poison Element) # EF_BEGINSPELL7
+Effect_0059 = 2
+;  Cast target circle # EF_LOCKON
+Effect_0060 = 1
+;  Old Warp Portal (NPC Warp, unused) # EF_WARPZONE
+Effect_0061 = 2
+;  Sight Trasher # EF_SIGHTRASHER
+Effect_0062 = 2
+;  Moonlight Sphere # EF_BARRIER
+Effect_0063 = 2
+;  Something Like Puruple/Yellow Light Bullet # EF_ARROWSHOT
+Effect_0064 = 2
+;  Something Like Absorb of Power # EF_INVENOM
+Effect_0065 = 2
+;  Cure # EF_CURE
+Effect_0066 = 1
+;  Provoke # EF_PROVOKE
+Effect_0067 = 1
+;  MVP Banner # EF_MVP
+Effect_0068 = 1
+;  Skid Trap # EF_SKIDTRAP
+Effect_0069 = 1
+;  Brandish Spear # EF_BRANDISHSPEAR
+Effect_0070 = 2
+;  Spiral White balls # EF_CONE
+Effect_0071 = 2
+;  Bigger Spiral White balls # EF_SPHERE
+Effect_0072 = 2
+;  Blue/White Small Aura # EF_BOWLINGBASH
+Effect_0073 = 2
+;  Ice Wall # EF_ICEWALL
+Effect_0074 = 2
+;  Gloria # EF_GLORIA
+Effect_0075 = 1
+;  Magnificat # EF_MAGNIFICAT
+Effect_0076 = 1
+;  Resurrection # EF_RESURRECTION
+Effect_0077 = 2
+;  Status Recovery # EF_RECOVERY
+Effect_0078 = 1
+;  Earth Spike # EF_EARTHSPIKE
+Effect_0079 = 2
+;  Spear Boomerang # EF_SPEARBMR
+Effect_0080 = 2
+;  Skill hit # EF_PIERCE
+Effect_0081 = 2
+;  Turn Undead # EF_TURNUNDEAD
+Effect_0082 = 2
+;  Sanctuary # EF_SANCTUARY
+Effect_0083 = 2
+;  Impositio Manus # EF_IMPOSITIO
+Effect_0084 = 1
+;  Lex Aeterna # EF_LEXAETERNA
+Effect_0085 = 1
+;  Aspersio # EF_ASPERSIO
+Effect_0086 = 1
+;  Lex Divina # EF_LEXDIVINA
+Effect_0087 = 1
+;  Suffragium # EF_SUFFRAGIUM
+Effect_0088 = 1
+;  Storm Gust # EF_STORMGUST
+Effect_0089 = 2
+;  Lord of Vermilion # EF_LORD
+Effect_0090 = 2
+;  B. S. Sacramenti # EF_BENEDICTIO
+Effect_0091 = 1
+;  Meteor Storm # EF_METEORSTORM
+Effect_0092 = 2
+;  Jupitel Thunder (Ball) # EF_YUFITEL
+Effect_0093 = 2
+;  Jupitel Thunder (Hit) # EF_YUFITELHIT
+Effect_0094 = 2
+;  Quagmire # EF_QUAGMIRE
+Effect_0095 = 2
+;  Fire Pillar # EF_FIREPILLAR
+Effect_0096 = 2
+;  Fire Pillar/Land Mine hit # EF_FIREPILLARBOMB
+Effect_0097 = 2
+;  Adrenaline Rush # EF_HASTEUP
+Effect_0098 = 2
+;  Flasher Trap # EF_FLASHER
+Effect_0099 = 2
+;  Yellow ball fountain # EF_REMOVETRAP
+Effect_0100 = 2
+;  Weapon Repair # EF_REPAIRWEAPON
+Effect_0101 = 2
+;  Hammerfall # EF_CRASHEARTH
+Effect_0102 = 2
+;  Weapon Perfection # EF_PERFECTION
+Effect_0103 = 2
+;  Maximize Power # EF_MAXPOWER
+Effect_0104 = 2
+;  (nothing) # EF_BLASTMINE
+Effect_0105 = 2
+;  Blast Mine Trap # EF_BLASTMINEBOMB
+Effect_0106 = 2
+;  Claymore Trap # EF_CLAYMORE
+Effect_0107 = 2
+;  Freezing Trap # EF_FREEZING
+Effect_0108 = 1
+;  Bailaban Blue bubble Map Effect # EF_BUBBLE
+Effect_0109 = 2
+;  Trap Used by Giearth # EF_GASPUSH
+Effect_0110 = 2
+;  Spring Trap # EF_SPRINGTRAP
+Effect_0111 = 2
+;  Kyrie Eleison # EF_KYRIE
+Effect_0112 = 1
+;  Magnus Exorcismus # EF_MAGNUS
+Effect_0113 = 1
+;  Old Magnus Exorcismus Map Unit (unused) # EF_BOTTOM
+Effect_0114 = 2
+;  Blitz Beat # EF_BLITZBEAT
+Effect_0115 = 2
+;  Fling Watersphere # EF_WATERBALL
+Effect_0116 = 2
+;  Waterball # EF_WATERBALL2
+Effect_0117 = 2
+;  Fling Firesphere # EF_FIREIVY
+Effect_0118 = 2
+;  Detect # EF_DETECTING
+Effect_0119 = 1
+;  Cloaking # EF_CLOAKING
+Effect_0120 = 1
+;  Sonic Blow (Part 1/2) # EF_SONICBLOW
+Effect_0121 = 2
+;  Multi hit effect # EF_SONICBLOWHIT
+Effect_0122 = 2
+;  Grimtooth Cast # EF_GRIMTOOTH
+Effect_0123 = 1
+;  Venom Dust # EF_VENOMDUST
+Effect_0124 = 2
+;  Enchant Poison # EF_ENCHANTPOISON
+Effect_0125 = 2
+;  Poison React # EF_POISONREACT
+Effect_0126 = 2
+;  Small Posion React # EF_POISONREACT2
+Effect_0127 = 2
+;  Over Thrust # EF_OVERTHRUST
+Effect_0128 = 2
+;  Venom Splasher Explosion # EF_SPLASHER
+Effect_0129 = 2
+;  Two-Hand Quicken # EF_TWOHANDQUICKEN
+Effect_0130 = 2
+;  Auto-Counter Hit # EF_AUTOCOUNTER
+Effect_0131 = 2
+;  Grimtooth Hit # EF_GRIMTOOTHATK
+Effect_0132 = 1
+;  Ice Effect (Used by NPCs) # EF_FREEZE
+Effect_0133 = 2
+;  Ice Effect (Used by NPCs) # EF_FREEZED
+Effect_0134 = 2
+;  Ice Effect (Used by NPCs) # EF_ICECRASH
+Effect_0135 = 2
+;  Slow Poison # EF_SLOWPOISON
+Effect_0136 = 2
+;  Old Sanctuary Map Unit (unused) # EF_BOTTOM2
+Effect_0137 = 2
+;  Fire pillar # EF_FIREPILLARON
+Effect_0138 = 2
+;  Sandman Trap # EF_SANDMAN
+Effect_0139 = 1
+;  Ressurection Aura # EF_REVIVE
+Effect_0140 = 1
+;  Pneuma # EF_PNEUMA
+Effect_0141 = 1
+;  Heaven's Drive # EF_HEAVENSDRIVE
+Effect_0142 = 1
+;  Sonic Blow (Part 2/2) # EF_SONICBLOW2
+Effect_0143 = 2
+;  Brandish Spear Pre-Hit Effect # EF_BRANDISH2
+Effect_0144 = 2
+;  Shockwave Trap # EF_SHOCKWAVE
+Effect_0145 = 1
+;  Shockwave Trap Hit # EF_SHOCKWAVEHIT
+Effect_0146 = 2
+;  Pierce Hit # EF_EARTHHIT
+Effect_0147 = 2
+;  Pierce Cast Animation # EF_PIERCESELF
+Effect_0148 = 2
+;  Bowling Bash # EF_BOWLINGSELF
+Effect_0149 = 2
+;  Pierce Cast Animation # EF_SPEARSTABSELF
+Effect_0150 = 2
+;  Spear Boomerang Cast # EF_SPEARBMRSELF
+Effect_0151 = 2
+;  Turn Undead # EF_HOLYHIT
+Effect_0152 = 2
+;  Increase Concentration # EF_CONCENTRATION
+Effect_0153 = 1
+;  Refine Success # EF_REFINEOK
+Effect_0154 = 2
+;  Refine Fail # EF_REFINEFAIL
+Effect_0155 = 2
+;  jobchange.str not found error # EF_JOBCHANGE
+Effect_0156 = 2
+;  levelup.str not found error # EF_LVUP
+Effect_0157 = 2
+;  Job Level Up # EF_JOBLVUP
+Effect_0158 = 2
+;  PvP circle # EF_TOPRANK
+Effect_0159 = 2
+;  PvP Party Circle # EF_PARTY
+Effect_0160 = 2
+;  (Nothing) # EF_RAIN
+Effect_0161 = 2
+;  Snow # EF_SNOW
+Effect_0162 = 2
+;  White Sakura Leaves # EF_SAKURA
+Effect_0163 = 2
+;  Comodo Fireworks Ball # EF_BANJJAKII
+Effect_0165 = 2
+;  Energy Coat (Visual Effect) # EF_MAKEBLUR
+Effect_0166 = 1
+;  (Nothing) # EF_TAMINGSUCCESS
+Effect_0167 = 2
+;  (Nothing) # EF_TAMINGFAILED
+Effect_0168 = 2
+;  Energy Coat Animation # EF_ENERGYCOAT
+Effect_0169 = 2
+;  Cart Revolution # EF_CARTREVOLUTION
+Effect_0170 = 2
+;  Venom Dust Map Unit # EF_VENOMDUST2
+Effect_0171 = 2
+;  Change Element (Dark) # EF_CHANGEDARK
+Effect_0172 = 2
+;  Change Element (Fire) # EF_CHANGEFIRE
+Effect_0173 = 2
+;  Change Element (Water) # EF_CHANGECOLD
+Effect_0174 = 2
+;  Change Element (Wind) # EF_CHANGEWIND
+Effect_0175 = 2
+;  Change Element (Fire) # EF_CHANGEFLAME
+Effect_0176 = 2
+;  Change Element (Earth) # EF_CHANGEEARTH
+Effect_0177 = 2
+;  Change Element (Holy) # EF_CHAINGEHOLY
+Effect_0178 = 2
+;  Change Element (Poison) # EF_CHANGEPOISON
+Effect_0179 = 2
+;  Darkness Attack # EF_HITDARK
+Effect_0180 = 2
+;  Mental Breaker # EF_MENTALBREAK
+Effect_0181 = 2
+;  Magical Hit # EF_MAGICALATTHIT
+Effect_0182 = 2
+;  Self Destruction # EF_SUI_EXPLOSION
+Effect_0183 = 2
+;  (Nothing) # EF_DARKATTACK
+Effect_0184 = 2
+;  (Nothing) # EF_SUICIDE
+Effect_0185 = 2
+;  Combo Attack 1 # EF_COMBOATTACK1
+Effect_0186 = 2
+;  Combo Attack 2 # EF_COMBOATTACK2
+Effect_0187 = 2
+;  Combo Attack 3 # EF_COMBOATTACK3
+Effect_0188 = 2
+;  Combo Attack 4 # EF_COMBOATTACK4
+Effect_0189 = 2
+;  Combo Attack 5 # EF_COMBOATTACK5
+Effect_0190 = 2
+;  Guided Attack # EF_GUIDEDATTACK
+Effect_0191 = 2
+;  Poison Attack # EF_POISONATTACK
+Effect_0192 = 2
+;  Silence Attack # EF_SILENCEATTACK
+Effect_0193 = 2
+;  Stun Attack # EF_STUNATTACK
+Effect_0194 = 2
+;  Petrify Attack # EF_PETRIFYATTACK
+Effect_0195 = 2
+;  Curse Attack # EF_CURSEATTACK
+Effect_0196 = 2
+;  Sleep Attack # EF_SLEEPATTACK
+Effect_0197 = 2
+;  (Nothing) # EF_TELEKHIT
+Effect_0198 = 2
+;  Small Popping Bubble Map Effect # EF_PONG
+Effect_0199 = 2
+;  Normal level 99 Aura (Middle) # EF_LEVEL99
+Effect_0200 = 2
+;  Normal level 99 Aura (Bottom) # EF_LEVEL99_2
+Effect_0201 = 2
+;  Lv 99 Aura Bubble # EF_LEVEL99_3
+Effect_0202 = 2
+;  Fury (Visual Effect) # EF_GUMGANG
+Effect_0203 = 1
+;  Red Herb/Potion # EF_POTION1
+Effect_0204 = 2
+;  Orange Potion # EF_POTION2
+Effect_0205 = 2
+;  Yellow Herb/Potion # EF_POTION3
+Effect_0206 = 2
+;  White Herb/Potion # EF_POTION4
+Effect_0207 = 2
+;  Blue Herb/Potion # EF_POTION5
+Effect_0208 = 2
+;  Green Herb/Potion # EF_POTION6
+Effect_0209 = 2
+;  Yellow Circle Healing Effect # EF_POTION7
+Effect_0210 = 2
+;  Blue Circle Healing Effect # EF_POTION8
+Effect_0211 = 2
+;  Dark Breath # EF_DARKBREATH
+Effect_0212 = 2
+;  Defender # EF_DEFFENDER
+Effect_0213 = 2
+;  Keeping # EF_KEEPING
+Effect_0214 = 2
+;  Summon Slave # EF_SUMMONSLAVE
+Effect_0215 = 2
+;  Blood Drain # EF_BLOODDRAIN
+Effect_0216 = 2
+;  Energy Drain # EF_ENERGYDRAIN
+Effect_0217 = 2
+;  Concentration Potion # EF_POTION_CON
+Effect_0218 = 1
+;  Awakening Potion # EF_POTION_
+Effect_0219 = 1
+;  Berserk Potion # EF_POTION_BERSERK
+Effect_0220 = 1
+;  Intense light beam # EF_POTIONPILLAR
+Effect_0221 = 2
+;  Defender (Crusader) # EF_DEFENDER
+Effect_0222 = 2
+;  Holy Cast Aura # EF_GANBANTEIN
+Effect_0223 = 1
+;  Wind (Map effect) # EF_WIND
+Effect_0224 = 2
+;  Volcano casting effect # EF_VOLCANO
+Effect_0225 = 2
+;  Grand Cross Effect # EF_GRANDCROSS
+Effect_0226 = 2
+;  Snatch # EF_INTIMIDATE
+Effect_0227 = 2
+;  (Nothing) # EF_CHOOKGI
+Effect_0228 = 2
+;  (Nothing) # EF_CLOUD
+Effect_0229 = 2
+;  (Nothing) # EF_CLOUD2
+Effect_0230 = 2
+;  Map Light Pillar Animation 1 # EF_MAPPILLAR
+Effect_0231 = 2
+;  Sacrifice (Visual Effect) # EF_LINELINK
+Effect_0232 = 2
+;  Fog # EF_CLOUD3
+Effect_0233 = 2
+;  Spell Breaker # EF_SPELLBREAKER
+Effect_0234 = 2
+;  Dispell # EF_DISPELL
+Effect_0235 = 1
+;  Deluge Cast Aura # EF_DELUGE
+Effect_0236 = 2
+;  Violent Gale Cast Aura # EF_VIOLENTGALE
+Effect_0237 = 2
+;  Magnetic Earth Cast Aura # EF_LANDPROTECTOR
+Effect_0238 = 2
+;  Volcano (Visual Effect) # EF_BOTTOM_VO
+Effect_0239 = 2
+;  Deluge (Visual Effect) # EF_BOTTOM_DE
+Effect_0240 = 2
+;  Violent Gale (Visual Effect) # EF_BOTTOM_VI
+Effect_0241 = 2
+;  Magnetic Earth (Visual Effect) # EF_BOTTOM_LA
+Effect_0242 = 2
+;  (Invalid) # EF_FASTMOVE
+Effect_0243 = 1
+;  Magic Rod # EF_MAGICROD
+Effect_0244 = 1
+;  Holy Cross # EF_HOLYCROSS
+Effect_0245 = 2
+;  Shield Charge # EF_SHIELDCHARGE
+Effect_0246 = 2
+;  Map Light Pillar Animation 2 # EF_MAPPILLAR2
+Effect_0247 = 2
+;  Resistant Souls # EF_PROVIDENCE
+Effect_0248 = 1
+;  Shield Boomerang # EF_SHIELDBOOMERANG
+Effect_0249 = 2
+;  Spear Quicken # EF_SPEARQUICKEN
+Effect_0250 = 2
+;  Devotion # EF_DEVOTION
+Effect_0251 = 1
+;  Reflect Shield # EF_REFLECTSHIELD
+Effect_0252 = 2
+;  Absorb Spirit Spheres # EF_ABSORBSPIRITS
+Effect_0253 = 2
+;  Mental Strength (Visual Effect) # EF_STEELBODY
+Effect_0254 = 2
+;  Elemental Endow (Fire) # EF_FLAMELAUNCHER
+Effect_0255 = 2
+;  Elemental Endow (Water) # EF_FROSTWEAPON
+Effect_0256 = 2
+;  Elemental Endow (Wind) # EF_LIGHTNINGLOADER
+Effect_0257 = 2
+;  Elemental Endow (Earth) # EF_SEISMICWEAPON
+Effect_0258 = 2
+;  Map Light Pillar Animation 3 # EF_MAPPILLAR3
+Effect_0259 = 2
+;  Map Light Pillar Animation 4 # EF_MAPPILLAR4
+Effect_0260 = 2
+;  Fury Cast Animation # EF_GUMGANG2
+Effect_0261 = 2
+;  Raging Quadruple Blow # EF_TEIHIT1
+Effect_0262 = 2
+;  Raging Quadruple Blow 2 # EF_GUMGANG3
+Effect_0263 = 2
+;  (Nothing) # EF_TEIHIT2
+Effect_0264 = 2
+;  Throw Spirit Sphere # EF_TANJI
+Effect_0265 = 1
+;  Raging Quadruple Blow 3 # EF_TEIHIT1X
+Effect_0266 = 2
+;  Occult Impaction # EF_CHIMTO
+Effect_0267 = 2
+;  Steal Coin # EF_STEALCOIN
+Effect_0268 = 2
+;  Divest Weapon # EF_STRIPWEAPON
+Effect_0269 = 1
+;  Divest Shield # EF_STRIPSHIELD
+Effect_0270 = 1
+;  Divest Armor # EF_STRIPARMOR
+Effect_0271 = 1
+;  Divest Helm # EF_STRIPHELM
+Effect_0272 = 1
+;  Raging Quadruple Blow 4 # EF_CHAINCOMBO
+Effect_0273 = 2
+;  Steal Coin Animation # EF_RG_COIN
+Effect_0274 = 2
+;  Back Stab Animation # EF_BACKSTAP
+Effect_0275 = 2
+;  Raging Thrust # EF_TEIHIT3
+Effect_0276 = 2
+;  Dissoance Map Unit # EF_BOTTOM_DISSONANCE
+Effect_0277 = 2
+;  Lullaby Map Unit # EF_BOTTOM_LULLABY
+Effect_0278 = 2
+;  Mr Kim a Rich Man Map Unit # EF_BOTTOM_RICHMANKIM
+Effect_0279 = 2
+;  Eternal Chaos Map Unit # EF_BOTTOM_ETERNALCHAOS
+Effect_0280 = 2
+;  A Drum on the Battlefield Map Unit # EF_BOTTOM_DRUMBATTLEFIELD
+Effect_0281 = 2
+;  The Ring Of Nibelungen Map Unit # EF_BOTTOM_RINGNIBELUNGEN
+Effect_0282 = 2
+;  Loki's Veil Map Unit # EF_BOTTOM_ROKISWEIL
+Effect_0283 = 2
+;  Into the Abyss Map Unit # EF_BOTTOM_INTOABYSS
+Effect_0284 = 2
+;  Invunerable Siegfriend Map Unit # EF_BOTTOM_SIEGFRIED
+Effect_0285 = 2
+;  A Wistle Map Unit # EF_BOTTOM_WHISTLE
+Effect_0286 = 2
+;  Assassin Cross of Sunset Map Unit # EF_BOTTOM_ASSASSINCROSS
+Effect_0287 = 2
+;  A Poem of Bragi Map Unit # EF_BOTTOM_POEMBRAGI
+Effect_0288 = 2
+;  The Apple Of Idun Map Unit # EF_BOTTOM_APPLEIDUN
+Effect_0289 = 2
+;  Ugly Dance Map Unit # EF_BOTTOM_UGLYDANCE
+Effect_0290 = 2
+;  Humming Map Unit # EF_BOTTOM_HUMMING
+Effect_0291 = 2
+;  Please don't Forget Me Map Unit # EF_BOTTOM_DONTFORGETME
+Effect_0292 = 2
+;  Fortune's Kiss Map Unit # EF_BOTTOM_FORTUNEKISS
+Effect_0293 = 2
+;  Service For You Map Unit # EF_BOTTOM_SERVICEFORYOU
+Effect_0294 = 2
+;  Frost Joke # EF_TALK_FROSTJOKE
+Effect_0295 = 2
+;  Scream # EF_TALK_SCREAM
+Effect_0296 = 2
+;  Fire Works (Visual Effect) # EF_POKJUK
+Effect_0297 = 2
+;  Acid Terror Animnation # EF_THROWITEM
+Effect_0298 = 2
+;  (Nothing) # EF_THROWITEM2
+Effect_0299 = 2
+;  Chemical Protection # EF_CHEMICALPROTECTION
+Effect_0300 = 1
+;  Fire Works (Sound Effect) # EF_POKJUK_SOUND
+Effect_0301 = 2
+;  Bomb # EF_DEMONSTRATION
+Effect_0302 = 2
+;  (Unused) # EF_CHEMICAL2
+Effect_0303 = 2
+;  Teleportation Animation # EF_TELEPORTATION2
+Effect_0304 = 2
+;  Pharmacy Success # EF_PHARMACY_OK
+Effect_0305 = 2
+;  Pharmacy Failed # EF_PHARMACY_FAIL
+Effect_0306 = 2
+;  Forest Light 1 # EF_FORESTLIGHT
+Effect_0307 = 2
+;  Throw Stone # EF_THROWITEM3
+Effect_0308 = 2
+;  First Aid # EF_FIRSTAID
+Effect_0309 = 2
+;  Sprinkle Sand # EF_SPRINKLESAND
+Effect_0310 = 2
+;  Crazy Uproar # EF_LOUD
+Effect_0311 = 2
+;  Heal Effect # EF_HEAL
+Effect_0312 = 2
+;  Heal Effect 2 # EF_HEAL2
+Effect_0313 = 2
+;  Old Map Exit effect (Unused) # EF_EXIT2
+Effect_0314 = 2
+;  Safety Wall # EF_GLASSWALL2
+Effect_0315 = 2
+;  Warp Portal Animation 1 # EF_READYPORTAL2
+Effect_0316 = 1
+;  Warp Portal Animation 2 # EF_PORTAL2
+Effect_0317 = 1
+;  Magnus Exorcisimus Map Unit # EF_BOTTOM_MAG
+Effect_0318 = 2
+;  Sanctuary Map Unit # EF_BOTTOM_SANC
+Effect_0319 = 2
+;  Offensive Heal # EF_HEAL3
+Effect_0320 = 2
+;  Warp NPC # EF_WARPZONE2
+Effect_0321 = 1
+;  Forest Light 2 # EF_FORESTLIGHT2
+Effect_0322 = 2
+;  Forest Light 3 # EF_FORESTLIGHT3
+Effect_0323 = 2
+;  Forest Light 4 # EF_FORESTLIGHT4
+Effect_0324 = 2
+;  Heal Effect 4 # EF_HEAL4
+Effect_0325 = 2
+;  Chase Walk Left Foot # EF_FOOT
+Effect_0326 = 2
+;  Chse Walk Right Foot # EF_FOOT2
+Effect_0327 = 2
+;  Monk Asura Strike # EF_BEGINASURA
+Effect_0328 = 2
+;  Triple Strike # EF_TRIPLEATTACK
+Effect_0329 = 2
+;  Combo Finish # EF_HITLINE
+Effect_0330 = 2
+;  Natural HP Regeneration # EF_HPTIME
+Effect_0331 = 2
+;  Natural SP Regeneration # EF_SPTIME
+Effect_0332 = 2
+;  Autumn Leaves # EF_MAPLE
+Effect_0333 = 2
+;  Blind # EF_BLIND
+Effect_0334 = 2
+;  Poison # EF_POISON
+Effect_0335 = 2
+;  Kyrie Eleison/Parrying Shield # EF_GUARD
+Effect_0336 = 2
+;  Class Change # EF_JOBLVUP50
+Effect_0337 = 2
+;  Super Novice/Taekwon Level Up Angel # EF_ANGEL2
+Effect_0338 = 1
+;  Spiral Pierce # EF_MAGNUM2
+Effect_0339 = 2
+;  (Nothing) # EF_CALLZONE
+Effect_0340 = 2
+;  Wedding Warp Portal # EF_PORTAL3
+Effect_0341 = 1
+;  Wedding Skill # EF_COUPLECASTING
+Effect_0342 = 2
+;  Another Merry Skill # EF_HEARTCASTING
+Effect_0343 = 2
+;  Character map entry effect # EF_ENTRY2
+Effect_0344 = 2
+;  Wings (Animated) # EF_SAINTWING
+Effect_0345 = 2
+;  Like Moonlight But Blue # EF_SPHEREWIND
+Effect_0346 = 2
+;  Wedding Ceremony # EF_COLORPAPER
+Effect_0347 = 2
+;  Like 1000 Blade trepassing # EF_LIGHTSPHERE
+Effect_0348 = 2
+;  Waterfall (Horizonatal) # EF_WATERFALL
+Effect_0349 = 2
+;  Waterfall (Vertical) # EF_WATERFALL_90
+Effect_0350 = 2
+;  Small Waterfall (Horizonatal) # EF_WATERFALL_SMALL
+Effect_0351 = 2
+;  Small Waterfall (Vertical) # EF_WATERFALL_SMALL_90
+Effect_0352 = 2
+;  Dark Waterfall (Horizonatal) # EF_WATERFALL_T2
+Effect_0353 = 2
+;  Dark Waterfall (Vertical) # EF_WATERFALL_T2_90
+Effect_0354 = 2
+;  Dark Small Waterfall (Horizonatal) # EF_WATERFALL_SMALL_T2
+Effect_0355 = 2
+;  Dark Small Waterfall (Vertical) # EF_WATERFALL_SMALL_T2_90
+Effect_0356 = 2
+;  (Nothing) # EF_MINI_TETRIS
+Effect_0357 = 2
+;  Niflheim Ghost # EF_GHOST
+Effect_0358 = 2
+;  Niflheim Bat Slow # EF_BAT
+Effect_0359 = 2
+;  Niflheim Bat Fast # EF_BAT2
+Effect_0360 = 2
+;  Soul Destroyer # EF_SOULBREAKER
+Effect_0361 = 2
+;  Trancendant Level 99 Aura 1 # EF_LEVEL99_4
+Effect_0362 = 2
+;  Valentine Day Heart With Wings # EF_VALLENTINE
+Effect_0363 = 2
+;  Valentine Day Heart # EF_VALLENTINE2
+Effect_0364 = 2
+;  Gloria Domini # EF_PRESSURE
+Effect_0365 = 2
+;  Martyr's Reckoning # EF_BASH3D
+Effect_0366 = 2
+;  Aura Blade # EF_AURABLADE
+Effect_0367 = 2
+;  Berserk # EF_REDBODY
+Effect_0368 = 2
+;  Concentration # EF_LKCONCENTRATION
+Effect_0369 = 2
+;  Gospel Map Unit # EF_BOTTOM_GOSPEL
+Effect_0370 = 2
+;  Level Up # EF_ANGEL
+Effect_0371 = 1
+;  Death # EF_DEVIL
+Effect_0372 = 2
+;  House Smoke # EF_DRAGONSMOKE
+Effect_0373 = 2
+;  Basilica # EF_BOTTOM_BASILICA
+Effect_0374 = 2
+;  Assumptio (Visual Effect) # EF_ASSUMPTIO
+Effect_0375 = 1
+;  Palm Strike # EF_HITLINE2
+Effect_0376 = 2
+;  Matyr's Reckoning 2 # EF_BASH3D2
+Effect_0377 = 2
+;  Soul Drain (1st Part) # EF_ENERGYDRAIN2
+Effect_0378 = 2
+;  Soul Drain (2nd Part) # EF_TRANSBLUEBODY
+Effect_0379 = 2
+;  Magic Crasher # EF_MAGICCRASHER
+Effect_0380 = 2
+;  Blue Starburst (Unknown use) # EF_LIGHTSPHERE2
+Effect_0381 = 2
+;  (Nothing) # EF_LIGHTBLADE
+Effect_0382 = 2
+;  Health Conversion # EF_ENERGYDRAIN3
+Effect_0383 = 2
+;  Soul Change (Sound Effect) # EF_LINELINK2
+Effect_0384 = 2
+;  Soul Change (Visual Effect) # EF_LINKLIGHT
+Effect_0385 = 2
+;  True Sight # EF_TRUESIGHT
+Effect_0386 = 2
+;  Falcon Assault # EF_FALCONASSAULT
+Effect_0387 = 2
+;  Focused Arrow Strike (Sound Effect) # EF_TRIPLEATTACK2
+Effect_0388 = 2
+;  Wind Walk # EF_PORTAL4
+Effect_0389 = 2
+;  Shattering Strike # EF_MELTDOWN
+Effect_0390 = 2
+;  Cart Boost # EF_CARTBOOST
+Effect_0391 = 2
+;  Reject Sword # EF_REJECTSWORD
+Effect_0392 = 2
+;  Arrow Vulcan # EF_TRIPLEATTACK3
+Effect_0393 = 2
+;  Sheltering Bliss # EF_SPHEREWIND2
+Effect_0394 = 2
+;  Marionette Control (Sound Effect) # EF_LINELINK3
+Effect_0395 = 2
+;  Marionette Control (Visual Effect) # EF_PINKBODY
+Effect_0396 = 1
+;  Trancended 99 Aura (Middle) # EF_LEVEL99_5
+Effect_0397 = 2
+;  Trancended 99 Aura (Bottom) # EF_LEVEL99_6
+Effect_0398 = 2
+;  Head Crush # EF_BASH3D3
+Effect_0399 = 2
+;  Joint Beat # EF_BASH3D4
+Effect_0400 = 2
+;  Napalm Vulcan Sound # EF_NAPALMVALCAN
+Effect_0401 = 2
+;  Dangerous Soul Collect # EF_PORTAL5
+Effect_0402 = 2
+;  Mind Breaker # EF_MAGICCRASHER2
+Effect_0403 = 1
+;  Fiber Lock # EF_BOTTOM_SPIDER
+Effect_0404 = 1
+;  Wall Of Fog # EF_BOTTOM_FOGWALL
+Effect_0405 = 2
+;  Soul Burn # EF_SOULBURN
+Effect_0406 = 2
+;  Soul Change # EF_SOULCHANGE
+Effect_0407 = 2
+;  Mom, Dad, I love you! (Baby Skill) # EF_BABY
+Effect_0408 = 2
+;  Meteor Assault # EF_SOULBREAKER2
+Effect_0409 = 2
+;  Rainbow # EF_RAINBOW
+Effect_0410 = 2
+;  Leap # EF_PEONG
+Effect_0411 = 2
+;  Like Throw Spirit Sphere # EF_TANJI2
+Effect_0412 = 2
+;  Axe Kick # EF_PRESSEDBODY
+Effect_0413 = 2
+;  Round Kick # EF_SPINEDBODY
+Effect_0414 = 2
+;  Counter Kick # EF_KICKEDBODY
+Effect_0415 = 2
+;  (Nothing) # EF_AIRTEXTURE
+Effect_0416 = 2
+;  Flash # EF_HITBODY
+Effect_0417 = 2
+;  Warmth Lightning # EF_DOUBLEGUMGANG
+Effect_0418 = 2
+;  Kaite (Visual Effect) # EF_REFLECTBODY
+Effect_0419 = 1
+;  Eswoo (Small) (Visual Effect) # EF_BABYBODY
+Effect_0420 = 2
+;  Eswoo (Alt. Small) (Visual Effect) # EF_BABYBODY2
+Effect_0421 = 2
+;  Eswoo (Normal) (Visual Effect) # EF_GIANTBODY
+Effect_0422 = 2
+;  Eswoo (Alt. Normal) (Visual Effect) # EF_GIANTBODY2
+Effect_0423 = 2
+;  Spirit Link (Visual Effect) # EF_ASURABODY
+Effect_0424 = 1
+;  Esma Hit (Visual Effect) # EF_4WAYBODY
+Effect_0425 = 2
+;  Sprint Collision (Visual Effect) # EF_QUAKEBODY
+Effect_0426 = 2
+;  (Nothing) # EF_ASURABODY_MONSTER
+Effect_0427 = 2
+;  (Nothing) # EF_HITLINE3
+Effect_0428 = 2
+;  Taekwon Kick Hit 1 # EF_HITLINE4
+Effect_0429 = 2
+;  Taekwon Kick Hit 2 # EF_HITLINE5
+Effect_0430 = 2
+;  Taekwon Kick Hit 3 # EF_HITLINE6
+Effect_0431 = 2
+;  Solar, Lunar and Stellar Perception (Visual Effect) # EF_ELECTRIC
+Effect_0432 = 2
+;  Solar, Lunar and Stellar Opposition (Visual Effect) # EF_ELECTRIC2
+Effect_0433 = 2
+;  Taekwon Kick Hit 4 # EF_HITLINE7
+Effect_0434 = 2
+;  Whirlwind Kick # EF_STORMKICK
+Effect_0435 = 2
+;  White Barrier (Unused) # EF_HALFSPHERE
+Effect_0436 = 2
+;  White barrier 2 (Unused) # EF_ATTACKENERGY
+Effect_0437 = 2
+;  Kaite Reflect Animation # EF_ATTACKENERGY2
+Effect_0438 = 2
+;  Flying Side Kick # EF_CHEMICAL3
+Effect_0439 = 2
+;  Assumptio (Animation) # EF_ASSUMPTIO2
+Effect_0440 = 1
+;  Comfort Skills Cast Aura # EF_BLUECASTING
+Effect_0441 = 2
+;  Foot Prints caused by Sprint. # EF_RUN
+Effect_0442 = 2
+;  (Nothing) # EF_STOPRUN
+Effect_0443 = 2
+;  Sprint Stop Animation # EF_STOPEFFECT
+Effect_0444 = 2
+;  High Jump (Jump) # EF_JUMPBODY
+Effect_0445 = 1
+;  High Jump (Return Down) # EF_LANDBODY
+Effect_0446 = 1
+;  Running Left Foot # EF_FOOT3
+Effect_0447 = 2
+;  Running Right Foot # EF_FOOT4
+Effect_0448 = 2
+;  KA-Spell (1st Part) # EF_TAE_READY
+Effect_0449 = 1
+;  Darkcross # EF_GRANDCROSS2
+Effect_0450 = 2
+;  Dark Strike # EF_SOULSTRIKE2
+Effect_0451 = 2
+;  Something Like Jupitel Thunder # EF_YUFITEL2
+Effect_0452 = 2
+;  Paralized # EF_NPC_STOP
+Effect_0453 = 2
+;  Like Blind # EF_DARKCASTING
+Effect_0454 = 2
+;  Another Warmth Lightning # EF_GUMGANGNPC
+Effect_0455 = 2
+;  Power Up # EF_AGIUP
+Effect_0456 = 2
+;  Flying Side Kick (2nd Part) # EF_JUMPKICK
+Effect_0457 = 2
+;  Running/Sprint (running into a wall) # EF_QUAKEBODY2
+Effect_0458 = 2
+;  Brown tornado that spins sprite (unused) # EF_STORMKICK1
+Effect_0459 = 2
+;  Green tornado (unused) # EF_STORMKICK2
+Effect_0460 = 2
+;  Blue tornado (unused) # EF_STORMKICK3
+Effect_0461 = 2
+;  Kaupe Dodge Effect # EF_STORMKICK4
+Effect_0462 = 2
+;  Kaupe Dodge Effect # EF_STORMKICK5
+Effect_0463 = 2
+;  White tornado (unused) # EF_STORMKICK6
+Effect_0464 = 2
+;  Purple tornado (unused) # EF_STORMKICK7
+Effect_0465 = 2
+;  Another Round Kick # EF_SPINEDBODY2
+Effect_0466 = 2
+;  Warm/Mild Wind (Earth) # EF_BEGINASURA1
+Effect_0467 = 2
+;  Warm/Mild Wind (Wind) # EF_BEGINASURA2
+Effect_0468 = 2
+;  Warm/Mild Wind (Water) # EF_BEGINASURA3
+Effect_0469 = 2
+;  Warm/Mild Wind (Fire) # EF_BEGINASURA4
+Effect_0470 = 2
+;  Warm/Mild Wind (Undead) # EF_BEGINASURA5
+Effect_0471 = 2
+;  Warm/Mild Wind (Shadow) # EF_BEGINASURA6
+Effect_0472 = 2
+;  Warm/Mild Wind (Holy) # EF_BEGINASURA7
+Effect_0473 = 2
+;  (Nothing) # EF_AURABLADE2
+Effect_0474 = 2
+;  Demon of The Sun Moon And Stars (Level 1) # EF_DEVIL1
+Effect_0475 = 2
+;  Demon of The Sun Moon And Stars (Level 2) # EF_DEVIL2
+Effect_0476 = 2
+;  Demon of The Sun Moon And Stars (Level 3) # EF_DEVIL3
+Effect_0477 = 2
+;  Demon of The Sun Moon And Stars (Level 4) # EF_DEVIL4
+Effect_0478 = 2
+;  Demon of The Sun Moon And Stars (Level 5) # EF_DEVIL5
+Effect_0479 = 2
+;  Demon of The Sun Moon And Stars (Level 6) # EF_DEVIL6
+Effect_0480 = 2
+;  Demon of The Sun Moon And Stars (Level 7) # EF_DEVIL7
+Effect_0481 = 2
+;  Demon of The Sun Moon And Stars (Level 8) # EF_DEVIL8
+Effect_0482 = 2
+;  Demon of The Sun Moon And Stars (Level 9) # EF_DEVIL9
+Effect_0483 = 2
+;  Demon of The Sun Moon And Stars (Level 10) # EF_DEVIL10
+Effect_0484 = 2
+;  Mental Strength Lightning but White # EF_DOUBLEGUMGANG2
+Effect_0485 = 2
+;  Mental Strength Lightning # EF_DOUBLEGUMGANG3
+Effect_0486 = 2
+;  Demon of The Sun Moon And Stars Ground Effect # EF_BLACKDEVIL
+Effect_0487 = 2
+;  Comfort Skills # EF_FLOWERCAST
+Effect_0488 = 2
+;  (Nothing) # EF_FLOWERCAST2
+Effect_0489 = 2
+;  (Nothing) # EF_FLOWERCAST3
+Effect_0490 = 2
+;  Element Potions # EF_MOCHI
+Effect_0491 = 2
+;  Cooking Foods # EF_LAMADAN
+Effect_0492 = 2
+;  Enchant Deadly Poison # EF_EDP
+Effect_0493 = 2
+;  Throwing Tomahawk # EF_SHIELDBOOMERANG2
+Effect_0494 = 2
+;  Full Strip Sound # EF_RG_COIN2
+Effect_0495 = 2
+;  Preserve # EF_GUARD2
+Effect_0496 = 2
+;  Twilight Alchemy 1 # EF_SLIM
+Effect_0497 = 2
+;  Twilight Alchemy 2 # EF_SLIM2
+Effect_0498 = 2
+;  Twilight Alchemy 3 # EF_SLIM3
+Effect_0499 = 2
+;  Player Become Blue with Blue Aura # EF_CHEMICALBODY
+Effect_0500 = 2
+;  Chase Walk Animation # EF_CASTSPIN
+Effect_0501 = 2
+;  Player Become Yellow with Yellow Aura # EF_PIERCEBODY
+Effect_0502 = 2
+;  Soul Link Word # EF_SOULLINK
+Effect_0503 = 2
+;  (Nothing) # EF_CHOOKGI2
+Effect_0504 = 2
+;  Memorize # EF_MEMORIZE
+Effect_0505 = 2
+;  (Nothing) # EF_SOULLIGHT
+Effect_0506 = 2
+;  Authoritative Badge # EF_MAPAE
+Effect_0507 = 2
+;  Fire Cracker # EF_ITEMPOKJUK
+Effect_0508 = 2
+;  Valentine Day Hearth (Wings) # EF_05VAL
+Effect_0509 = 2
+;  Champion Asura Strike # EF_BEGINASURA11
+Effect_0510 = 2
+;  (Nothing) # EF_NIGHT
+Effect_0511 = 2
+;  Chain Crush Combo # EF_CHEMICAL2DASH
+Effect_0512 = 2
+;  Area Cast # EF_GROUNDSAMPLE
+Effect_0513 = 2
+;  Really Big Circle # EF_GI_EXPLOSION
+Effect_0514 = 2
+;  Einbroch Fog # EF_CLOUD4
+Effect_0515 = 2
+;  Airship Cloud # EF_CLOUD5
+Effect_0516 = 2
+;  (Nothing) # EF_BOTTOM_HERMODE
+Effect_0517 = 2
+;  Cart Termination # EF_CARTTER
+Effect_0518 = 2
+;  Speed Down Potion # EF_ITEMFAST
+Effect_0519 = 1
+;  Shield Bumerang # EF_SHIELDBOOMERANG3
+Effect_0520 = 2
+;  Player Become Red with Red Aura # EF_DOUBLECASTBODY
+Effect_0521 = 2
+;  Gravitation Field # EF_GRAVITATION
+Effect_0522 = 2
+;  Tarot Card of Fate (The Fool) # EF_TAROTCARD1
+Effect_0523 = 1
+;  Tarot Card of Fate (The Magician) # EF_TAROTCARD2
+Effect_0524 = 1
+;  Tarot Card of Fate (The High Priestess) # EF_TAROTCARD3
+Effect_0525 = 1
+;  Tarot Card of Fate (The Chariot) # EF_TAROTCARD4
+Effect_0526 = 1
+;  Tarot Card of Fate (Strength) # EF_TAROTCARD5
+Effect_0527 = 1
+;  Tarot Card of Fate (The Lovers) # EF_TAROTCARD6
+Effect_0528 = 1
+;  Tarot Card of Fate (The Wheel of Fortune) # EF_TAROTCARD7
+Effect_0529 = 1
+;  Tarot Card of Fate (The Hanged Man) # EF_TAROTCARD8
+Effect_0530 = 1
+;  Tarot Card of Fate (Death) # EF_TAROTCARD9
+Effect_0531 = 1
+;  Tarot Card of Fate (Temperance) # EF_TAROTCARD10
+Effect_0532 = 1
+;  Tarot Card of Fate (The Devil) # EF_TAROTCARD11
+Effect_0533 = 1
+;  Tarot Card of Fate (The Tower) # EF_TAROTCARD12
+Effect_0534 = 1
+;  Tarot Card of Fate (The Star) # EF_TAROTCARD13
+Effect_0535 = 1
+;  Tarot Card of Fate (The Sun) # EF_TAROTCARD14
+Effect_0536 = 1
+;  Acid Demonstration # EF_ACIDDEMON
+Effect_0537 = 1
+;  Player Become Green with Green Aura # EF_GREENBODY
+Effect_0538 = 2
+;  Throw Random Bottle # EF_THROWITEM4
+Effect_0539 = 2
+;  Instant Small->Normal # EF_BABYBODY_BACK
+Effect_0540 = 2
+;  (Nothing) # EF_THROWITEM5
+Effect_0541 = 2
+;  KA-Spell (1st Part) # EF_BLUEBODY
+Effect_0542 = 1
+;  Kahii # EF_HATED
+Effect_0543 = 2
+;  Warmth Red Sprite # EF_REDLIGHTBODY
+Effect_0544 = 1
+;  Sound And... PUFF Client Crash :P # EF_RO2YEAR
+Effect_0545 = 2
+;  Kaupe # EF_SMA_READY
+Effect_0546 = 2
+;  Estin # EF_STIN
+Effect_0547 = 2
+;  Instant Red Sprite # EF_RED_HIT
+Effect_0548 = 2
+;  Instant Blue Sprite # EF_BLUE_HIT
+Effect_0549 = 2
+;  Another Effect like Running Hit # EF_QUAKEBODY3
+Effect_0550 = 2
+;  Effect Like Estun but with Circle # EF_SMA
+Effect_0551 = 2
+;  (Nothing) # EF_SMA2
+Effect_0552 = 2
+;  Esma # EF_STIN2
+Effect_0553 = 2
+;  Large White Cloud # EF_HITTEXTURE
+Effect_0554 = 2
+;  Estun # EF_STIN3
+Effect_0555 = 2
+;  (Nothing) # EF_SMA3
+Effect_0556 = 2
+;  Juperos Energy Waterfall (Horizontal) # EF_BLUEFALL
+Effect_0557 = 2
+;  Juperos Energy Waterfall (Vertical) # EF_BLUEFALL_90
+Effect_0558 = 2
+;  Juperos Energy Waterfall Fast (Horizontal) # EF_FASTBLUEFALL
+Effect_0559 = 2
+;  Juperos Energy Waterfall Fast (Vertical) # EF_FASTBLUEFALL_90
+Effect_0560 = 2
+;  Juperos Warp # EF_BIG_PORTAL
+Effect_0561 = 1
+;  Juperos Warp # EF_BIG_PORTAL2
+Effect_0562 = 1
+;  Earthquake Effect (Juperos Elevator) # EF_SCREEN_QUAKE
+Effect_0563 = 1
+;  Wedding Cast # EF_HOMUNCASTING
+Effect_0564 = 2
+;  Filir Moonlight Lvl 1 # EF_HFLIMOON1
+Effect_0565 = 2
+;  Filir Moonlight Lvl 2 # EF_HFLIMOON2
+Effect_0566 = 2
+;  Filir Moonlight Lvl 3 # EF_HFLIMOON3
+Effect_0567 = 2
+;  Another Job Level Up # EF_HO_UP
+Effect_0568 = 2
+;  Amistr Bulwark # EF_HAMIDEFENCE
+Effect_0569 = 2
+;  Amistr Castling # EF_HAMICASTLE
+Effect_0570 = 2
+;  Amistr Bloodlust # EF_HAMIBLOOD
+Effect_0571 = 2
+;  Warmth Soul # EF_HATED2
+Effect_0572 = 2
+;  Twilight Alchemy 1 # EF_TWILIGHT1
+Effect_0573 = 2
+;  Twilight Alchemy 2 # EF_TWILIGHT2
+Effect_0574 = 2
+;  Twilight Alchemy 3 # EF_TWILIGHT3
+Effect_0575 = 2
+;  Box Effect (Thunder) # EF_ITEM_THUNDER
+Effect_0576 = 2
+;  Box Effect (Cloud) # EF_ITEM_CLOUD
+Effect_0577 = 2
+;  Box Effect (Curse) # EF_ITEM_CURSE
+Effect_0578 = 2
+;  Box Effect (Sleep) # EF_ITEM_ZZZ
+Effect_0579 = 2
+;  Box Effect (Rain) # EF_ITEM_RAIN
+Effect_0580 = 2
+;  Box Effect (Sunlight) # EF_ITEM_LIGHT
+Effect_0581 = 2
+;  Another Super Novice/Taekwon Angel # EF_ANGEL3
+Effect_0582 = 2
+;  Warmth Hit # EF_M01
+Effect_0583 = 2
+;  Full Buster # EF_M02
+Effect_0584 = 2
+;  5 Medium Size Explosion # EF_M03
+Effect_0585 = 2
+;  Somatology Lab Mobs Aura # EF_M04
+Effect_0586 = 2
+;  Big Purple Flame # EF_M05
+Effect_0587 = 2
+;  Little Red Flame # EF_M06
+Effect_0588 = 2
+;  Eswoo # EF_M07
+Effect_0589 = 2
+;  Running Stop # EF_KAIZEL
+Effect_0590 = 2
+;  (Nothing) # EF_KAAHI
+Effect_0591 = 2
+;  Thanatos Tower Bloody Clouds # EF_CLOUD6
+Effect_0592 = 2
+;  Food Effect (STR) # EF_FOOD01
+Effect_0593 = 2
+;  Food Effect (INT) # EF_FOOD02
+Effect_0594 = 2
+;  Food Effect (VIT) # EF_FOOD03
+Effect_0595 = 2
+;  Food Effect (AGI) # EF_FOOD04
+Effect_0596 = 2
+;  Food Effect (DEX) # EF_FOOD05
+Effect_0597 = 2
+;  Food Effect (LUK) # EF_FOOD06
+Effect_0598 = 2
+;  Cast Time Sound and Flashing Animation on Player # EF_SHRINK
+Effect_0599 = 2
+;  Throw Venom Knife # EF_THROWITEM6
+Effect_0600 = 2
+;  Sight Blaster # EF_SIGHT2
+Effect_0601 = 2
+;  Close Confine (Grab Effect) # EF_QUAKEBODY4
+Effect_0602 = 1
+;  Spinning fire ball (like 50, but smaller) # EF_FIREHIT2
+Effect_0603 = 2
+;  Close Confine (Ground Effect) # EF_NPC_STOP2
+Effect_0604 = 1
+;  (Nothing) # EF_NPC_STOP2_DEL
+Effect_0605 = 2
+;  Pang Voice (Visual Effect) # EF_FVOICE
+Effect_0606 = 2
+;  Wink of Charm (Visual Effect) # EF_WINK
+Effect_0607 = 2
+;  Cooking Success # EF_COOKING_OK
+Effect_0608 = 2
+;  Cooking Failed # EF_COOKING_FAIL
+Effect_0609 = 2
+;  Success # EF_TEMP_OK
+Effect_0610 = 2
+;  Failed # EF_TEMP_FAIL
+Effect_0611 = 2
+;  Korean Words and /no1 Emoticon # EF_HAPGYEOK
+Effect_0612 = 2
+;  Throw Shuriken # EF_THROWITEM7
+Effect_0613 = 2
+;  Throw Kunai # EF_THROWITEM8
+Effect_0614 = 2
+;  Throw Fumma Shuriken # EF_THROWITEM9
+Effect_0615 = 2
+;  Throw Money # EF_THROWITEM10
+Effect_0616 = 2
+;  Illusionary Shadow # EF_BUNSINJYUTSU
+Effect_0617 = 2
+;  Crimson Fire Bolossom # EF_KOUENKA
+Effect_0618 = 2
+;  Lightning Spear Of Ice # EF_HYOUSENSOU
+Effect_0619 = 2
+;  Water Escape Technique # EF_BOTTOM_SUITON
+Effect_0620 = 2
+;  Wind Blade # EF_STIN4
+Effect_0621 = 2
+;  Lightning Crash # EF_THUNDERSTORM2
+Effect_0622 = 2
+;  Piercing Shot # EF_CHEMICAL4
+Effect_0623 = 2
+;  Kamaitachi # EF_STIN5
+Effect_0624 = 2
+;  Madness Canceller # EF_MADNESS_BLUE
+Effect_0625 = 2
+;  Adjustment # EF_MADNESS_RED
+Effect_0626 = 2
+;  Disarm (Sound Effect) # EF_RG_COIN3
+Effect_0627 = 2
+;  Dust # EF_BASH3D5
+Effect_0628 = 2
+;  (Nothing) # EF_CHOOKGI3
+Effect_0629 = 2
+;  Shadow Slash # EF_KIRIKAGE
+Effect_0630 = 2
+;  Reverse Tatami Map Unit # EF_TATAMI
+Effect_0631 = 2
+;  Mist Slash # EF_KASUMIKIRI
+Effect_0632 = 2
+;  Final Strike # EF_ISSEN
+Effect_0633 = 2
+;  Crimson Fire Formation # EF_KAEN
+Effect_0634 = 2
+;  Dragon Fire Formation # EF_BAKU
+Effect_0635 = 2
+;  Falling Ice Pillar # EF_HYOUSYOURAKU
+Effect_0636 = 2
+;  Desperado # EF_DESPERADO
+Effect_0637 = 2
+;  Ground Drift Grenade # EF_LIGHTNING_S
+Effect_0638 = 2
+;  Ground Drift Grenade # EF_BLIND_S
+Effect_0639 = 2
+;  Ground Drift Grenade # EF_POISON_S
+Effect_0640 = 2
+;  Ground Drift Grenade # EF_FREEZING_S
+Effect_0641 = 2
+;  Ground Drift Grenade # EF_FLARE_S
+Effect_0642 = 2
+;  Rapid Shower # EF_RAPIDSHOWER
+Effect_0643 = 2
+;  Magic Bullet # EF_MAGICALBULLET
+Effect_0644 = 2
+;  Spread Attack # EF_SPREADATTACK
+Effect_0645 = 2
+;  Tracking (Shown While Casting) # EF_TRACKCASTING
+Effect_0646 = 2
+;  Tracking # EF_TRACKING
+Effect_0647 = 2
+;  Triple Action # EF_TRIPLEACTION
+Effect_0648 = 2
+;  Bull's Eye # EF_BULLSEYE
+Effect_0649 = 2
+;  Ice Cave Level 4 Circle # EF_MAP_MAGICZONE
+Effect_0650 = 2
+;  Ice Cave Level 4 Big Circle # EF_MAP_MAGICZONE2
+Effect_0651 = 2
+;  Like Regeneration Number but Red with a Sound # EF_DAMAGE1
+Effect_0652 = 2
+;  Like Regeneration Number but Red # EF_DAMAGE1_2
+Effect_0653 = 2
+;  Like Regeneration Number but Purple # EF_DAMAGE1_3
+Effect_0654 = 2
+;  Mobs Skill (Change Undead Element) # EF_UNDEADBODY
+Effect_0655 = 1
+;  Last animation before Change Undead Element finish # EF_UNDEADBODY_DEL
+Effect_0656 = 1
+;  (Nothing) # EF_GREEN_NUMBER
+Effect_0657 = 2
+;  (Nothing) # EF_BLUE_NUMBER
+Effect_0658 = 2
+;  (Nothing) # EF_RED_NUMBER
+Effect_0659 = 2
+;  (Nothing) # EF_PURPLE_NUMBER
+Effect_0660 = 2
+;  (Nothing) # EF_BLACK_NUMBER
+Effect_0661 = 2
+;  (Nothing) # EF_WHITE_NUMBER
+Effect_0662 = 2
+;  (Nothing) # EF_YELLOW_NUMBER
+Effect_0663 = 2
+;  (Nothing) # EF_PINK_NUMBER
+Effect_0664 = 2
+;  Little Blue Ball Falling From the Sky # EF_BUBBLE_DROP
+Effect_0665 = 2
+;  Earthquake # EF_NPC_EARTHQUAKE
+Effect_0666 = 1
+;  (Nothing) # EF_DA_SPACE
+Effect_0667 = 2
+;  Dragonfear # EF_DRAGONFEAR
+Effect_0668 = 2
+;  Wide Bleeding # EF_BLEEDING
+Effect_0669 = 2
+;  Dragon fear (Visual Effect) # EF_WIDECONFUSE
+Effect_0670 = 2
+;  The Japan Earth Symbol (like 'Seven Wind Lv1', but on the ground) # EF_BOTTOM_RUNNER
+Effect_0671 = 2
+;  The Japan Wind Symbol (like 'Seven Wind Lv2', but on the ground) # EF_BOTTOM_TRANSFER
+Effect_0672 = 2
+;  Map turns Blue (like Soul Link) # EF_CRYSTAL_BLUE
+Effect_0673 = 2
+;  Evil Land Cell # EF_BOTTOM_EVILLAND
+Effect_0674 = 2
+;  Like Parrying/Kyrie Eleison barrier but Yellow with small Cross in every barrier piece # EF_GUARD3
+Effect_0675 = 2
+;  Slow Casting # EF_NPC_SLOWCAST
+Effect_0676 = 2
+;  Critical Wounds/Bleeding Attack # EF_CRITICALWOUND
+Effect_0677 = 2
+;  White 99 Aura Bubbles # EF_GREEN99_3
+Effect_0678 = 2
+;  Green Aura (Middle) # EF_GREEN99_5
+Effect_0679 = 2
+;  Green Aura (Bottom) # EF_GREEN99_6
+Effect_0680 = 2
+;  Dimensional Gorge Map Effect # EF_MAPSPHERE
+Effect_0681 = 2
+;  I Love You Banner # EF_POK_LOVE
+Effect_0682 = 2
+;  Happy White Day Banner # EF_POK_WHITE
+Effect_0683 = 2
+;  Happy Valentine Day Banner # EF_POK_VALEN
+Effect_0684 = 2
+;  Happy Birthday Banner # EF_POK_BIRTH
+Effect_0685 = 2
+;  Merry Christmas Banner # EF_POK_CHRISTMAS
+Effect_0686 = 2
+;  Cast Circle-Like effect 1 # EF_MAP_MAGICZONE3
+Effect_0687 = 2
+;  Cast Circle-Like effect 2 # EF_MAP_MAGICZONE4
+Effect_0688 = 2
+;  Endless Tower Map Effect # EF_DUST
+Effect_0689 = 2
+;  Burning Flame (Red) # EF_TORCH_RED
+Effect_0690 = 2
+;  Burning Flame (Green) # EF_TORCH_GREEN
+Effect_0691 = 2
+;  Unknown Aura Bubbles (Small ghosts) # EF_MAP_GHOST
+Effect_0692 = 2
+;  Translucent yellow circle # EF_GLOW1
+Effect_0693 = 2
+;  Translucent green circle # EF_GLOW2
+Effect_0694 = 2
+;  Rotating green light # EF_GLOW4
+Effect_0695 = 2
+;  The same of 690 and 691 but Blue/Purple # EF_TORCH_PURPLE
+Effect_0696 = 2
+;  (Nothing) # EF_CLOUD7
+Effect_0697 = 2
+;  (Nothing) # EF_CLOUD8
+Effect_0698 = 2
+;  Fall of powder from the sky and raise of some leaf # EF_FLOWERLEAF
+Effect_0699 = 2
+;  Big Colored Green Sphere. # EF_MAPSPHERE2
+Effect_0700 = 2
+;  Huge Blue Sphere # EF_GLOW11
+Effect_0701 = 2
+;  Little Colored Violet Sphere # EF_GLOW12
+Effect_0702 = 2
+;  Light Infiltration with fall of pownder # EF_CIRCLELIGHT
+Effect_0703 = 2
+;  Client Error (mobile_ef02.str) # EF_ITEM315
+Effect_0704 = 2
+;  Client Error (mobile_ef01.str) # EF_ITEM316
+Effect_0705 = 2
+;  Client Error (mobile_ef03.str) # EF_ITEM317
+Effect_0706 = 2
+;  Client Crash :P # EF_ITEM318
+Effect_0707 = 2
+;  Storm Gust (same as 89) # EF_STORM_MIN
+Effect_0708 = 2
+;  A Firework that split in 4 mini fireworks # EF_POK_JAP
+Effect_0709 = 2
+;  A Sphere like Effect 701 but Green, and a bit more larger # EF_MAP_GREENLIGHT
+Effect_0710 = 2
+;  A big violet wall # EF_MAP_MAGICWALL
+Effect_0711 = 2
+;  A Little Flame Sphere # EF_MAP_GREENLIGHT2
+Effect_0712 = 2
+;  A lot of Very Small and Yellow Sphere # EF_YELLOWFLY1
+Effect_0713 = 2
+;  (Nothing) # EF_YELLOWFLY2
+Effect_0714 = 2
+;  Little blue Basilica # EF_BOTTOM_BLUE
+Effect_0715 = 2
+;  Same as 715 # EF_BOTTOM_BLUE2
+Effect_0716 = 2
+;  Christmas Carol (copy of Angelus) # EF_WEWISH
+Effect_0717 = 2
+;  Judex (Visual Effect) # EF_FIREPILLARON2
+Effect_0718 = 2
+;  Renovatio (light beam) # EF_FORESTLIGHT5
+Effect_0719 = 2
+;  Yellow version of Soul Breaker # EF_SOULBREAKER3
+Effect_0720 = 2
+;  Adoramus (lightning bolt) # EF_ADO_STR
+Effect_0721 = 2
+;  Ignition Break (big explosion) # EF_IGN_STR
+Effect_0722 = 2
+;  Hundred Spear (sound effect) # EF_CHIMTO2
+Effect_0723 = 2
+;  Green version of Detecting # EF_WINDCUTTER
+Effect_0724 = 2
+;  Oratorio (like Detecting) # EF_DETECT2
+Effect_0725 = 2
+;  Frost Misty (blue vapor and bubbles) # EF_FROSTMYSTY
+Effect_0726 = 2
+;  Crimson Rock # EF_CRIMSON_STR
+Effect_0727 = 2
+;  Small fire (part of Hell Inferno) # EF_HELL_STR
+Effect_0728 = 2
+;  Marsh of Abyss (like Close Confine) # EF_SPR_MASH
+Effect_0729 = 2
+;  Small, cartoony explosion (part of Soul Expansion) # EF_SPR_SOULE
+Effect_0730 = 2
+;  Dragon Howling (blinking, expanding circle) # EF_DHOWL_STR
+Effect_0731 = 2
+;  Spike from the ground # EF_EARTHWALL
+Effect_0732 = 2
+;  Fluffy Ball flying by # EF_SOULBREAKER4
+Effect_0733 = 2
+;  Chain Lightning # EF_CHAINL_STR
+Effect_0734 = 2
+;  (Nothing) # EF_CHOOKGI_FIRE
+Effect_0735 = 2
+;  (Nothing) # EF_CHOOKGI_WIND
+Effect_0736 = 2
+;  (Nothing) # EF_CHOOKGI_WATER
+Effect_0737 = 2
+;  (Nothing) # EF_CHOOKGI_GROUND
+Effect_0738 = 2
+;  Old Magenta Trap # EF_MAGENTA_TRAP
+Effect_0739 = 2
+;  Old Cobald Trap # EF_COBALT_TRAP
+Effect_0740 = 2
+;  Old Maize Trap # EF_MAIZE_TRAP
+Effect_0741 = 2
+;  Old Verdure Trap # EF_VERDURE_TRAP
+Effect_0742 = 2
+;  White Ranger Trap # EF_NORMAL_TRAP
+Effect_0743 = 2
+;  Camouflage # EF_CLOAKING2
+Effect_0744 = 2
+;  Aimed Bolt (crosshairs) # EF_AIMED_STR
+Effect_0745 = 2
+;  Arrow Storm # EF_ARROWSTORM_STR
+Effect_0746 = 2
+;  Falling white feathers # EF_LAULAMUS_STR
+Effect_0747 = 2
+;  Falling blue feathers # EF_LAUAGNUS_STR
+Effect_0748 = 2
+;  Millennium Shield # EF_MILSHIELD_STR
+Effect_0749 = 2
+;  Detonator (blue sparkles) # EF_CONCENTRATION2
+Effect_0750 = 2
+;  Releasing summoned warlock spheres # EF_FIREBALL2
+Effect_0751 = 2
+;  Like Energy Coat, but not as dark # EF_BUNSINJYUTSU2
+Effect_0752 = 2
+;  Clearance # EF_CLEARTIME
+Effect_0753 = 2
+;  Green warp portal (root of Epiclesis) # EF_GLASSWALL3
+Effect_0754 = 2
+;  Oratio (spinning blue symbol) # EF_ORATIO
+Effect_0755 = 2
+;  Enchant Blade (like Berserk Potion) # EF_POTION_BERSERK2
+Effect_0756 = 2
+;  Third Class Aura (Middle) # EF_CIRCLEPOWER
+Effect_0757 = 2
+;  Rolling Cutter - Spin Count 1 # EF_ROLLING1
+Effect_0758 = 2
+;  Rolling Cutter - Spin Count 2 # EF_ROLLING2
+Effect_0759 = 2
+;  Rolling Cutter - Spin Count 3 # EF_ROLLING3
+Effect_0760 = 2
+;  Rolling Cutter - Spin Count 4 # EF_ROLLING4
+Effect_0761 = 2
+;  Rolling Cutter - Spin Count 5 # EF_ROLLING5
+Effect_0762 = 2
+;  Rolling Cutter - Spin Count 6 # EF_ROLLING6
+Effect_0763 = 2
+;  Rolling Cutter - Spin Count 7 # EF_ROLLING7
+Effect_0764 = 2
+;  Rolling Cutter - Spin Count 8 # EF_ROLLING8
+Effect_0765 = 2
+;  Rolling Cutter - Spin Count 9 # EF_ROLLING9
+Effect_0766 = 2
+;  Rolling Cutter - Spin Count 10 # EF_ROLLING10
+Effect_0767 = 2
+;  Blinking # EF_PURPLEBODY
+Effect_0768 = 2
+;  Cross Ripper Slasher (flying knives) # EF_STIN6
+Effect_0769 = 2
+;  Strip sound # EF_RG_COIN4
+Effect_0770 = 2
+;  Poison sound # EF_POISONWAV
+Effect_0771 = 2
+;  Poison particles # EF_POISONSMOKE
+Effect_0772 = 2
+;  Expanding purple aura (part of Phantom Menace) # EF_GUMGANG4
+Effect_0773 = 2
+;  Axe Boomerang # EF_SHIELDBOOMERANG4
+Effect_0774 = 2
+;  Spinning character sprite # EF_CASTSPIN2
+Effect_0775 = 2
+;  Like Desperado sound effect # EF_VULCANWAV
+Effect_0776 = 2
+;  Faded light from the ground [S] # EF_AGIUP2
+Effect_0777 = 2
+;  Expanding white aura (like Clearance) # EF_DETECT3
+Effect_0778 = 2
+;  Faded light from the ground [S] # EF_AGIUP3
+Effect_0779 = 2
+;  Expanding red aura (from Infrared Scan) # EF_DETECT4
+Effect_0780 = 2
+;  Magnetic Field (purple chains) # EF_ELECTRIC3
+Effect_0781 = 2
+;  All-around shield [S] # EF_GUARD4
+Effect_0782 = 2
+;  Yellow shaft of light # EF_BOTTOM_BARRIER
+Effect_0783 = 2
+;  White shaft of light # EF_BOTTOM_STEALTH
+Effect_0784 = 2
+;  Upward flying wrenches # EF_REPAIRTIME
+Effect_0785 = 2
+;  Symbol with bleeping sound [S] # EF_NC_ANAL
+Effect_0786 = 2
+;  Flare Launcher (line of fire) # EF_FIRETHROW
+Effect_0787 = 2
+;  Venom Impress (green skull) # EF_VENOMIMPRESS
+Effect_0788 = 2
+;  Freezing Status Effect (two ancillas) # EF_FROSTMISTY
+Effect_0789 = 2
+;  Burning Status Effect (flame symbol) # EF_BURNING
+Effect_0790 = 2
+;  Two ice shots # EF_COLDTHROW
+Effect_0791 = 2
+;  Upward streaming white particles # EF_MAKEHALLU
+Effect_0792 = 2
+;  Same, but more brief # EF_HALLUTIME
+Effect_0793 = 2
+;  Infrared Scan (red lasers) # EF_INFRAREDSCAN
+Effect_0794 = 2
+;  Power Swing (axe crash) # EF_CRASHAXE
+Effect_0795 = 2
+;  Spinning blue triangles # EF_GTHUNDER
+Effect_0796 = 2
+;  Stapo # EF_STONERING
+Effect_0797 = 2
+;  Red triangles (like Intimidate) # EF_INTIMIDATE2
+Effect_0798 = 2
+;  Stasis (expanding blue mist) [S] # EF_STASIS
+Effect_0799 = 2
+;  Hell Inferno (red lights) # EF_REDLINE
+Effect_0800 = 2
+;  Jack Frost unit (ice spikes) # EF_FROSTDIVER3
+Effect_0801 = 2
+;  White Imprison # EF_BOTTOM_BASILICA2
+Effect_0802 = 2
+;  Recognized Spell # EF_RECOGNIZED
+Effect_0803 = 2
+;  Tetra Vortex [S] # EF_TETRA
+Effect_0804 = 2
+;  Tetra Vortex cast animation (blinking colors) # EF_TETRACASTING
+Effect_0805 = 2
+;  Flying by as fast as a rocket # EF_FIREBALL3
+Effect_0806 = 2
+;  Kidnapping sound # EF_INTIMIDATE3
+Effect_0807 = 2
+;  Like Recognized Spell, but one symbol # EF_RECOGNIZED2
+Effect_0808 = 2
+;  Shadowy filter [S] # EF_CLOAKING3
+Effect_0809 = 2
+;  Damp thud sound [S] # EF_INTIMIDATE4
+Effect_0810 = 2
+;  Body Painting # EF_STRETCH
+Effect_0811 = 2
+;  Black expanding aura # EF_BLACKBODY
+Effect_0812 = 2
+;  Masquerade - Enervation # EF_ENERVATION
+Effect_0813 = 2
+;  Masquerade - Groomy # EF_ENERVATION2
+Effect_0814 = 2
+;  Masquerade - Ignorance # EF_ENERVATION3
+Effect_0815 = 2
+;  Masquerade - Laziness # EF_ENERVATION4
+Effect_0816 = 2
+;  Masquerade - Unlucky # EF_ENERVATION5
+Effect_0817 = 2
+;  Masquerade - Weakness # EF_ENERVATION6
+Effect_0818 = 2
+;  (Nothing) # EF_LINELINK4
+Effect_0819 = 2
+;  Strip Accessory # EF_RG_COIN5
+Effect_0820 = 2
+;  Waterfall # EF_WATERFALL_ANI
+Effect_0821 = 2
+;  Dimension Door (spinning blue aura) # EF_BOTTOM_MANHOLE
+Effect_0822 = 2
+;  in-the-manhole effect # EF_MANHOLE
+Effect_0823 = 2
+;  Some filter # EF_MAKEFEINT
+Effect_0824 = 2
+;  Dimension Door (aura + blue light) # EF_FORESTLIGHT6
+Effect_0825 = 2
+;  Expanding black casting anim. # EF_DARKCASTING2
+Effect_0826 = 2
+;  Chaos Panic (spinning brown aura) # EF_BOTTOM_ANI
+Effect_0827 = 2
+;  Maelstrom (spinning pink aura) # EF_BOTTOM_MAELSTROM
+Effect_0828 = 2
+;  Bloody Lust (spinning red aura) # EF_BOTTOM_BLOODYLUST
+Effect_0829 = 2
+;  Blue aura (Arch Bishop cast animation) # EF_BEGINSPELL_N1
+Effect_0830 = 2
+;  Blue cone [S] # EF_BEGINSPELL_N2
+Effect_0831 = 2
+;  Sonic Wave # EF_HEAL_N
+Effect_0832 = 2
+;  (Nothing) # EF_CHOOKGI_N
+Effect_0833 = 2
+;  Light shooting away circlish # EF_JOBLVUP50_2
+Effect_0834 = 2
+;  Fastness yellow-reddish # EF_CHEMICAL2DASH2
+Effect_0835 = 2
+;  Fastness yellow-pinkish # EF_CHEMICAL2DASH3
+Effect_0836 = 2
+;  Casting [S] # EF_ROLLINGCAST
+Effect_0837 = 2
+;  Watery aura # EF_WATER_BELOW
+Effect_0838 = 2
+;  [Client Error] # EF_WATER_FADE
+Effect_0839 = 2
+;  Red cone # EF_BEGINSPELL_N3
+Effect_0840 = 2
+;  Green cone # EF_BEGINSPELL_N4
+Effect_0841 = 2
+;  Yellow cone # EF_BEGINSPELL_N5
+Effect_0842 = 2
+;  White cone # EF_BEGINSPELL_N6
+Effect_0843 = 2
+;  Purple cone # EF_BEGINSPELL_N7
+Effect_0844 = 2
+;  light-bluish turquoise cone # EF_BEGINSPELL_N8
+Effect_0845 = 2
+;  (Nothing) # EF_WATER_SMOKE
+Effect_0846 = 2
+;  Gloomy Day (white/red light rays) # EF_DANCE1
+Effect_0847 = 2
+;  Gloomy Day (white/blue light rays) # EF_DANCE2
+Effect_0848 = 2
+;  (Nothing) # EF_LINKPARTICLE
+Effect_0849 = 2
+;  (Nothing) # EF_SOULLIGHT2
+Effect_0850 = 2
+;  Green mushy-foggy stuff (dull) # EF_SPR_PARTICLE
+Effect_0851 = 2
+;  Green mushy-foggy stuff (bright) # EF_SPR_PARTICLE2
+Effect_0852 = 2
+;  Bright green flower area # EF_SPR_PLANT
+Effect_0853 = 2
+;  Blue beam of light with notes # EF_CHEMICAL_V
+Effect_0854 = 2
+;  (Nothing) # EF_SHOOTPARTICLE
+Effect_0855 = 2
+;  Reverberation (red eighth notes) # EF_BOT_REVERB
+Effect_0856 = 2
+;  Severe Rainstorm (falling red and blue beams) # EF_RAIN_PARTICLE
+Effect_0857 = 2
+;  Deep Sleep Lullaby (two red beams and music notes) # EF_CHEMICAL_V2
+Effect_0858 = 2
+;  Holograph of text (blue) # EF_SECRA
+Effect_0859 = 2
+;  Distorted note (blue) # EF_BOT_REVERB2
+Effect_0860 = 2
+;  Green aura (from Circle of Life's Melody) # EF_CIRCLEPOWER2
+Effect_0861 = 2
+;  Randomize Spell (holograph of text) # EF_SECRA2
+Effect_0862 = 2
+;  Dominion Impulse (two spears of light) # EF_CHEMICAL_V3
+Effect_0863 = 2
+;  Gloomy Day (colorful lines) # EF_ENERVATION7
+Effect_0864 = 2
+;  Blue aura (from Song of Mana) # EF_CIRCLEPOWER3
+Effect_0865 = 2
+;  Dance with a Warg (Wargs) # EF_SPR_PLANT2
+Effect_0866 = 2
+;  Yellow aura (from Dance with a Warg) # EF_CIRCLEPOWER4
+Effect_0867 = 2
+;  Song of Mana (Violies) # EF_SPR_PLANT3
+Effect_0868 = 2
+;  Strip sound [S] # EF_RG_COIN6
+Effect_0869 = 2
+;  Ghostly Succubuses of fire # EF_SPR_PLANT4
+Effect_0870 = 2
+;  Red aura (from Lerad's Dew) # EF_CIRCLEPOWER5
+Effect_0871 = 2
+;  Lerad's Dew (Minerals) # EF_SPR_PLANT5
+Effect_0872 = 2
+;  Stargate-wormhole stuff (bright purple) # EF_CIRCLEPOWER6
+Effect_0873 = 2
+;  Melody of Sink (Ktullanuxes) # EF_SPR_PLANT6
+Effect_0874 = 2
+;  Stargate-wormhole stuff (bright turquoise) # EF_CIRCLEPOWER7
+Effect_0875 = 2
+;  Warcry of Beyond (Garms) # EF_SPR_PLANT7
+Effect_0876 = 2
+;  Stargate-wormhole stuff (white) # EF_CIRCLEPOWER8
+Effect_0877 = 2
+;  Unlimited Humming Voice (Miyabi Ningyos) # EF_SPR_PLANT8
+Effect_0878 = 2
+;  Siren's Voice (heart-like) # EF_HEARTASURA
+Effect_0879 = 2
+;  Bluish castish cone # EF_BEGINSPELL_150
+Effect_0880 = 2
+;  Blue aura # EF_LEVEL99_150
+Effect_0881 = 2
+;  Whirl of fireflies (red) # EF_PRIMECHARGE
+Effect_0882 = 2
+;  Epiclesis (transparent green tree) # EF_GLASSWALL4
+Effect_0883 = 2
+;  Green beam # EF_GRADIUS_LASER
+Effect_0884 = 2
+;  Blue light beams # EF_BASH3D6
+Effect_0885 = 2
+;  Blue castish cone # EF_GUMGANG5
+Effect_0886 = 2
+;  Wavy sparks # EF_HITLINE8
+Effect_0887 = 2
+;  Earth Shaker (same as 432) # EF_ELECTRIC4
+Effect_0888 = 2
+;  Fast light beams # EF_TEIHIT1T
+Effect_0889 = 2
+;  Rotation # EF_SPINMOVE
+Effect_0890 = 2
+;  Magic shots [S] # EF_FIREBALL4
+Effect_0891 = 2
+;  Fastness with hitting sound[S] # EF_TRIPLEATTACK4
+Effect_0892 = 2
+;  Blue-white light passing by # EF_CHEMICAL3S
+Effect_0893 = 2
+;  (Nothing) # EF_GROUNDSHAKE
+Effect_0894 = 2
+;  Big wheel of flat light beams # EF_DQ9_CHARGE
+Effect_0895 = 2
+;  Still sun shaped lightning aura # EF_DQ9_CHARGE2
+Effect_0896 = 2
+;  Animated sun shaped lightning aura # EF_DQ9_CHARGE3
+Effect_0897 = 2
+;  Animated, curvy sun shaped lightning aura # EF_DQ9_CHARGE4
+Effect_0898 = 2
+;  White/red light shots from below # EF_BLUELINE
+Effect_0899 = 2
+;  Animated, slow curvy sun shaped lightning aura # EF_SELFSCROLL
+Effect_0900 = 2
+;  Explosion # EF_SPR_LIGHTPRINT
+Effect_0901 = 2
+;  Floating bedtable texture # EF_PNG_TEST
+Effect_0902 = 2
+;  Castish flamey cone # EF_BEGINSPELL_YB
+Effect_0903 = 2
+;  Yellow/pink lights passing by # EF_CHEMICAL2DASH4
+Effect_0904 = 2
+;  Expanding circle # EF_GROUNDSHAKE2
+Effect_0905 = 2
+;  Shield Press (falling shield) # EF_PRESSURE2
+Effect_0906 = 2
+;  Chainy, metalish sound [S] # EF_RG_COIN7
+Effect_0907 = 2
+;  Prestige (sphere of yellow particles) # EF_PRIMECHARGE2
+Effect_0908 = 2
+;  Banding (sphere of red particles) # EF_PRIMECHARGE3
+Effect_0909 = 2
+;  Inspiration (sphere of blue particles) # EF_PRIMECHARGE4
+Effect_0910 = 2
+;  Green castish animation [S] # EF_GREENCASTING
+Effect_0911 = 2
+;  Wall of Thorns unit (green fog cloud) # EF_WALLOFTHORN
+Effect_0912 = 2
+;  Magic projectiles # EF_FIREBALL5
+Effect_0913 = 2
+;  (Nothing) # EF_THROWITEM11
+Effect_0914 = 2
+;  Crazy Weed # EF_SPR_PLANT9
+Effect_0915 = 2
+;  Demonic Fire # EF_DEMONICFIRE
+Effect_0916 = 2
+;  More angry, demonic flames # EF_DEMONICFIRE2
+Effect_0917 = 2
+;  Fire Insignia (demonic flames) # EF_DEMONICFIRE3
+Effect_0918 = 2
+;  Hell's Plant (green snapping plant) # EF_HELLSPLANT
+Effect_0919 = 2
+;  Fire Walk unit # EF_FIREWALL2
+Effect_0920 = 2
+;  Vacuum Extreme (whirlwind) # EF_VACUUM
+Effect_0921 = 2
+;  Psychic Wave # EF_SPR_PLANT10
+Effect_0922 = 2
+;  Poison Buster # EF_SPR_LIGHTPRINT2
+Effect_0923 = 2
+;  Poisoning animation # EF_POISONSMOKE2
+Effect_0924 = 2
+;  Some filter # EF_MAKEHALLU2
+Effect_0925 = 2
+;  Electric Walk unit # EF_SHOCKWAVE2
+Effect_0926 = 2
+;  Earth Grave (speary roots) # EF_SPR_PLANT11
+Effect_0927 = 2
+;  Ice cloud projectiles # EF_COLDTHROW2
+Effect_0928 = 2
+;  Warmer (field of flames) # EF_DEMONICFIRE4
+Effect_0929 = 2
+;  Varetyr Spear (falling spear) # EF_PRESSURE3
+Effect_0930 = 2
+;  (Nothing) # EF_LINKPARTICLE2
+Effect_0931 = 2
+;  Firefly # EF_SOULLIGHT3
+Effect_0932 = 2
+;  [Client Crash] # EF_CHAREFFECT
+Effect_0933 = 2
+;  White, castishly expanding cone # EF_GUMGANG6
+Effect_0934 = 2
+;  Green magic projectile # EF_FIREBALL6
+Effect_0935 = 2
+;  Red, castishly expanding cone # EF_GUMGANG7
+Effect_0936 = 2
+;  Yellow, castishly expanding cone # EF_GUMGANG8
+Effect_0937 = 2
+;  Dark-red, castishly expanding cone # EF_GUMGANG9
+Effect_0938 = 2
+;  Blue, conish aura # EF_BOTTOM_DE2
+Effect_0939 = 2
+;  Snow flake # EF_COLDSTATUS
+Effect_0940 = 2
+;  Explosion of red, demonic fire # EF_SPR_LIGHTPRINT3
+Effect_0941 = 2
+;  Expanding, white dome # EF_WATERBALL3
+Effect_0942 = 2
+;  Green, fluffy projectile # EF_HEAL_N2
+Effect_0943 = 2
+;  Falling gems # EF_RAIN_PARTICLE2
+Effect_0944 = 2
+;  (Nothing) # EF_CLOUD9
+Effect_0945 = 2
+;  Floating lights # EF_YELLOWFLY3
+Effect_0946 = 2
+;  Blue lightning sphere # EF_EL_GUST
+Effect_0947 = 2
+;  Two blue lightning spheres # EF_EL_BLAST
+Effect_0948 = 2
+;  Flat, spinning diamond # EF_EL_AQUAPLAY
+Effect_0949 = 2
+;  Circling, planetlike spheres # EF_EL_UPHEAVAL
+Effect_0950 = 2
+;  Three lightning spheres # EF_EL_WILD_STORM
+Effect_0951 = 2
+;  Flat, spinning gem and two lightning spheres # EF_EL_CHILLY_AIR
+Effect_0952 = 2
+;  Spinning, planetlike spheres # EF_EL_CURSED_SOIL
+Effect_0953 = 2
+;  Two lightblue glowing spheres # EF_EL_COOLER
+Effect_0954 = 2
+;  Three spinning flame spheres # EF_EL_TROPIC
+Effect_0955 = 2
+;  Flame # EF_EL_PYROTECHNIC
+Effect_0956 = 2
+;  Spinning planetlike sphere # EF_EL_PETROLOGY
+Effect_0957 = 2
+;  Two flames # EF_EL_HEATER
+Effect_0958 = 2
+;  Purple flame # EF_POISON_MIST
+Effect_0959 = 2
+;  Small yellow explosion # EF_ERASER_CUTTER
+Effect_0960 = 2
+;  Cartoony whirlwind # EF_SILENT_BREEZE
+Effect_0961 = 2
+;  Rising fire # EF_MAGMA_FLOW
+Effect_0962 = 2
+;  Dark filter (like Stone Curse) # EF_GRAYBODY
+Effect_0963 = 2
+;  Same as 920 # EF_LAVA_SLIDE
+Effect_0964 = 2
+;  Small white explosion # EF_SONIC_CLAW
+Effect_0965 = 2
+;  Bone crack # EF_TINDER_BREAKER
+Effect_0966 = 2
+;  Another little explosion # EF_MIDNIGHT_FRENZY
+Effect_0967 = 2
+;  EF_MACRO
+Effect_0968 = 2
+;  EF_CHEMICAL_ALLRANGE
+Effect_0969 = 2
+;  EF_TETRA_FIRE
+Effect_0970 = 2
+;  EF_TETRA_WATER
+Effect_0971 = 2
+;  EF_TETRA_WIND
+Effect_0972 = 2
+;  EF_TETRA_GROUND
+Effect_0973 = 2
+;  EF_EMITTER
+Effect_0974 = 2
+;  EF_VOLCANIC_ASH
+Effect_0975 = 2
+;  EF_LEVEL99_ORB1
+Effect_0976 = 2
+;  EF_LEVEL99_ORB2
+Effect_0977 = 2
+;  EF_LEVEL150
+Effect_0978 = 2
+;  EF_LEVEL150_SUB
+Effect_0979 = 2
+;  EF_THROWITEM4_1
+Effect_0980 = 2
+;  EF_THROW_HAPPOKUNAI
+Effect_0981 = 2
+;  EF_THROW_MULTIPLE_COIN
+Effect_0982 = 2
+;  EF_THROW_BAKURETSU
+Effect_0983 = 2
+;  EF_ROTATE_HUUMARANKA
+Effect_0984 = 2
+;  EF_ROTATE_BG
+Effect_0985 = 2
+;  EF_ROTATE_LINE_GRAY
+Effect_0986 = 2
+;  EF_2011RWC
+Effect_0987 = 2
+;  EF_2011RWC2
+Effect_0988 = 2
+;  EF_KAIHOU
+Effect_0989 = 2
+;  EF_GROUND_EXPLOSION
+Effect_0990 = 2
+;  EF_KG_KAGEHUMI
+Effect_0991 = 2
+;  EF_KO_ZENKAI_WATER
+Effect_0992 = 2
+;  EF_KO_ZENKAI_LAND
+Effect_0993 = 2
+;  EF_KO_ZENKAI_FIRE
+Effect_0994 = 2
+;  EF_KO_ZENKAI_WIND
+Effect_0995 = 2
+;  EF_KO_JYUMONJIKIRI
+Effect_0996 = 2
+;  EF_KO_SETSUDAN
+Effect_0997 = 2
+;  EF_RED_CROSS
+Effect_0998 = 2
+;  EF_KO_IZAYOI
+Effect_0999 = 2
+;  EF_ROTATE_LINE_BLUE
+Effect_1000 = 2
+;  EF_KG_KYOMU
+Effect_1001 = 2
+;  EF_KO_HUUMARANKA
+Effect_1002 = 2
+;  EF_BLUELIGHTBODY
+Effect_1003 = 2
+;  EF_KAGEMUSYA
+Effect_1004 = 2
+;  EF_OB_GENSOU
+Effect_1005 = 2
+;  EF_NO100_FIRECRACKER
+Effect_1006 = 2
+;  EF_KO_MAKIBISHI
+Effect_1007 = 2
+;  EF_KAIHOU1
+Effect_1008 = 2
+;  EF_AKAITSUKI
+Effect_1009 = 2
+;  EF_ZANGETSU
+Effect_1010 = 2
+;  EF_GENSOU
+Effect_1011 = 2
+;  EF_HAT_EFFECT
+Effect_1012 = 2
+;  EF_CHERRYBLOSSOM
+Effect_1013 = 2
+;  EF_EVENT_CLOUD
+Effect_1014 = 2
+;  EF_RUN_MAKE_OK
+Effect_1015 = 2
+;  EF_RUN_MAKE_FAILURE
+Effect_1016 = 2
+;  EF_MIRESULT_MAKE_OK
+Effect_1017 = 2
+;  EF_MIRESULT_MAKE_FAIL
+Effect_1018 = 2
+;  EF_ALL_RAY_OF_PROTECTION
+Effect_1019 = 2
+;  EF_VENOMFOG
+Effect_1020 = 2
+;  EF_DUSTSTORM
+Effect_1021 = 2
+;  EF_LEVEL160
+Effect_1022 = 2
+;  EF_LEVEL160_SUB
+Effect_1023 = 2
+;  EF_MAPCHAIN
+Effect_1024 = 2
+;  EF_MAGIC_FLOOR
+Effect_1025 = 2
+;  EF_ICEMINE
+Effect_1026 = 2
+;  EF_FLAMECORSS
+Effect_1027 = 2
+;  EF_ICEMINE_1
+Effect_1028 = 2
+;  EF_DANCE_BLADE_ATK
+Effect_1029 = 2
+;  EF_DARKPIERCING
+Effect_1030 = 2
+;  EF_INVINCIBLEOFF2
+Effect_1031 = 2
+;  EF_MAXPAIN
+Effect_1032 = 2
+;  EF_DEATHSUMMON
+Effect_1033 = 2
+;  EF_MOONSTAR
+Effect_1034 = 2
+;  EF_STRANGELIGHTS
+Effect_1035 = 2
+;  EF_SUPER_STAR
+Effect_1036 = 2
+;  EF_YELLOBODY
+Effect_1037 = 2
+;  EF_COLORPAPER2
+Effect_1038 = 2
+;  EF_EVILS_PAW
+Effect_1039 = 2
+;  EF_GC_DARKCROW
+Effect_1040 = 2
+;  EF_RK_DRAGONBREATH_WATER
+Effect_1041 = 2
+;  EF_ALL_FULL_THROTTLE
+Effect_1042 = 2
+;  EF_SR_FLASHCOMBO
+Effect_1043 = 2
+;  EF_RK_LUXANIMA
+Effect_1044 = 2
+;  EF_CLOUD10
+Effect_1045 = 2
+;  EF_SO_ELEMENTAL_SHIELD
+Effect_1046 = 2
+;  EF_AB_OFFERTORIUM
+Effect_1047 = 2
+;  EF_WL_TELEKINESIS_INTENSE
+Effect_1048 = 2
+;  EF_GN_ILLUSIONDOPING
+Effect_1049 = 2
+;  EF_NC_MAGMA_ERUPTION
+Effect_1050 = 2
+;  EF_LG_KINGS_GRACE
+Effect_1051 = 2
+;  EF_BLOODDRAIN2
+Effect_1052 = 2
+;  EF_NPC_WIDEWEB
+Effect_1053 = 2
+;  EF_NPC_BURNT
+Effect_1054 = 2
+;  EF_NPC_CHILL
+Effect_1055 = 2
+;  EF_RA_UNLIMIT
+Effect_1056 = 2
+;  EF_AB_OFFERTORIUM_RING
+Effect_1057 = 2
+;  EF_SC_ESCAPE
+Effect_1058 = 2
+;  EF_WM_FRIGG_SONG
+Effect_1059 = 2
+;  EF_FLICKER
+Effect_1060 = 2
+;  EF_C_MAKER
+Effect_1061 = 2
+;  EF_HAMMER_OF_GOD
+Effect_1062 = 2
+;  EF_MASS_SPIRAL
+Effect_1063 = 2
+;  EF_FIRE_RAIN
+Effect_1064 = 2
+;  EF_WHITEBODY
+Effect_1065 = 2
+;  EF_BANISHING_BUSTER
+Effect_1066 = 2
+;  EF_SLUGSHOT
+Effect_1067 = 2
+;  EF_D_TAIL
+Effect_1068 = 2
+;  EF_BIND_TRAP1
+Effect_1069 = 2
+;  EF_BIND_TRAP2
+Effect_1070 = 2
+;  EF_BIND_TRAP3
+Effect_1071 = 2
+;  EF_JUMPBODY1
+Effect_1072 = 2
+;  EF_ANIMATED_EMITTER
+Effect_1073 = 2
+;  EF_RL_EXPLOSION
+Effect_1074 = 2
+;  EF_C_MAKER_1
+Effect_1075 = 2
+;  EF_QD_SHOT
+Effect_1076 = 2
+;  EF_P_ALTER
+Effect_1077 = 2
+;  EF_S_STORM
+Effect_1078 = 2
+;  EF_MUSIC_HAT
+Effect_1079 = 2
+;  EF_CLOUD_KILL
+Effect_1080 = 2
+;  EF_ESCAPE
+Effect_1081 = 2
+;  EF_XENO_SLASHER
+Effect_1082 = 2
+;  EF_FLOWERSMOKE
+Effect_1083 = 2
+;  EF_FSTONE
+Effect_1084 = 2
+;  EF_QSCARABA
+Effect_1085 = 2
+;  EF_LJOSALFAR
+Effect_1086 = 2
+;  EF_HAPPINESSSTAR
+Effect_1087 = 2
+;  EF_POWER_OF_GAIA
+Effect_1088 = 2
+;  EF_MAPLE_FALLS
+Effect_1089 = 2
+;  EF_MARKING_USE_CHANGEMONSTER
+Effect_1090 = 2
+;  EF_MAGICAL_FEATHER
+Effect_1091 = 2
+;  EF_MERMAID_LONGING
+Effect_1092 = 2
+;  EF_GIFT_OF_SNOW
+Effect_1093 = 2
+;  EF_ACH_COMPLETE
+Effect_1094 = 2
+;  EF_TIME_ACCESSORY
+Effect_1095 = 2
+;  EF_SPRITEMABLE
+Effect_1096 = 2
+;  EF_TUNAPARTY
+Effect_1097 = 2
