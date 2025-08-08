@@ -5,8 +5,7 @@ $dataRevenantPath = Join-Path $basePath "data_revenant"
 $dataPath = Join-Path $basePath "data"
 $dataFolders = @(
     "data_lgp",
-    "data_maps_all",
-    "data_maps_woe",
+    "data_maps",
     "data_min_effect",
     "data_misc",
     "data_mvp"
