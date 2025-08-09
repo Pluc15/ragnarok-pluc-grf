@@ -1932,7 +1932,6 @@ SKILL_INFO_LIST = {
 		SkillName = "Reflect Shield",
 		MaxLv = 10,
 		SpAmount = { 35, 40, 45, 50, 55, 60, 65, 70, 75, 80 },
-		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.CR_SHIELDBOOMERANG,3 }
