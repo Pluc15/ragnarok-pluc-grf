@@ -3,13 +3,8 @@
 $basePath = Join-Path $PSScriptRoot ".." | Resolve-Path
 $dataRevenantPath = Join-Path $basePath "data_revenant"
 $dataPath = Join-Path $basePath "data"
-$dataFolders = @(
-    "data_lgp",
-    "data_maps",
-    "data_min_effect",
-    "data_misc",
-    "data_mvp"
-)
+$srcPath = Join-Path $basePath "src"
+$dataFolders = Get-ChildItem -Path $srcPath -Directory | ForEach-Object { "src/$($_.Name)" }
 
 Write-Output "=> Deleting old data directory"
 if (Test-Path $dataPath) {
