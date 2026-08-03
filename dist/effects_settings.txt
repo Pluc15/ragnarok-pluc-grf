@@ -843,13 +843,13 @@ Effect_0418 = 2
 ;  Kaite (Visual Effect) # EF_REFLECTBODY
 Effect_0419 = 1
 ;  Eswoo (Small) (Visual Effect) # EF_BABYBODY
-Effect_0420 = 2
+Effect_0420 = 1
 ;  Eswoo (Alt. Small) (Visual Effect) # EF_BABYBODY2
-Effect_0421 = 2
+Effect_0421 = 1
 ;  Eswoo (Normal) (Visual Effect) # EF_GIANTBODY
-Effect_0422 = 2
+Effect_0422 = 1
 ;  Eswoo (Alt. Normal) (Visual Effect) # EF_GIANTBODY2
-Effect_0423 = 2
+Effect_0423 = 1
 ;  Spirit Link (Visual Effect) # EF_ASURABODY
 Effect_0424 = 1
 ;  Esma Hit (Visual Effect) # EF_4WAYBODY
