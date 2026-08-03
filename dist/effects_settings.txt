@@ -197,7 +197,7 @@ Effect_0094 = 2
 ;  Quagmire # EF_QUAGMIRE
 Effect_0095 = 2
 ;  Fire Pillar # EF_FIREPILLAR
-Effect_0096 = 1
+Effect_0096 = 2
 ;  Fire Pillar/Land Mine hit # EF_FIREPILLARBOMB
 Effect_0097 = 2
 ;  Adrenaline Rush # EF_HASTEUP
@@ -607,7 +607,7 @@ Effect_0300 = 1
 ;  Fire Works (Sound Effect) # EF_POKJUK_SOUND
 Effect_0301 = 2
 ;  Bomb # EF_DEMONSTRATION
-Effect_0302 = 1
+Effect_0302 = 2
 ;  (Unused) # EF_CHEMICAL2
 Effect_0303 = 2
 ;  Teleportation Animation # EF_TELEPORTATION2
