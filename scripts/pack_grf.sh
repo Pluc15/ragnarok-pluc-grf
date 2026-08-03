@@ -41,7 +41,6 @@ prepDataFolder () {
   # cp -r "$srcPath/effect_hijacks"/* "$dataPath/"
   cp -r "$srcPath/effects"/* "$dataPath/"
   cp -r "$srcPath/grey_world"/* "$dataPath/"
-  # cp -r "$srcPath/grey_world_towns"/* "$dataPath/"
   # cp -r "$srcPath/hide_headgears"/* "$dataPath/"
   cp -r "$srcPath/lgp"/* "$dataPath/"
   cp -r "$srcPath/maps_settings"/* "$dataPath/"
@@ -67,6 +66,6 @@ pack () {
 }
 
 debug
-# clean
-# prepDataFolder
+clean
+prepDataFolder
 pack
