@@ -909,7 +909,7 @@ Effect_0451 = 2
 ;  Something Like Jupitel Thunder # EF_YUFITEL2
 Effect_0452 = 2
 ;  Paralized # EF_NPC_STOP
-Effect_0453 = 2
+Effect_0453 = 1
 ;  Like Blind # EF_DARKCASTING
 Effect_0454 = 2
 ;  Another Warmth Lightning # EF_GUMGANGNPC
