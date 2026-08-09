@@ -143,7 +143,7 @@ Effect_0067 = 1
 ;  MVP Banner # EF_MVP
 Effect_0068 = 1
 ;  Skid Trap # EF_SKIDTRAP
-Effect_0069 = 1
+Effect_0069 = 2
 ;  Brandish Spear # EF_BRANDISHSPEAR
 Effect_0070 = 2
 ;  Spiral White balls # EF_CONE
@@ -203,7 +203,7 @@ Effect_0097 = 2
 ;  Adrenaline Rush # EF_HASTEUP
 Effect_0098 = 2
 ;  Flasher Trap # EF_FLASHER
-Effect_0099 = 1
+Effect_0099 = 2
 ;  Yellow ball fountain # EF_REMOVETRAP
 Effect_0100 = 2
 ;  Weapon Repair # EF_REPAIRWEAPON
@@ -217,11 +217,11 @@ Effect_0104 = 2
 ;  (nothing) # EF_BLASTMINE
 Effect_0105 = 2
 ;  Blast Mine Trap # EF_BLASTMINEBOMB
-Effect_0106 = 1
+Effect_0106 = 2
 ;  Claymore Trap # EF_CLAYMORE
-Effect_0107 = 1
+Effect_0107 = 2
 ;  Freezing Trap # EF_FREEZING
-Effect_0108 = 1
+Effect_0108 = 2
 ;  Bailaban Blue bubble Map Effect # EF_BUBBLE
 Effect_0109 = 2
 ;  Trap Used by Giearth # EF_GASPUSH
@@ -283,7 +283,7 @@ Effect_0137 = 2
 ;  Fire pillar # EF_FIREPILLARON
 Effect_0138 = 2
 ;  Sandman Trap # EF_SANDMAN
-Effect_0139 = 1
+Effect_0139 = 2
 ;  Ressurection Aura # EF_REVIVE
 Effect_0140 = 1
 ;  Pneuma # EF_PNEUMA
@@ -295,7 +295,7 @@ Effect_0143 = 2
 ;  Brandish Spear Pre-Hit Effect # EF_BRANDISH2
 Effect_0144 = 2
 ;  Shockwave Trap # EF_SHOCKWAVE
-Effect_0145 = 1
+Effect_0145 = 2
 ;  Shockwave Trap Hit # EF_SHOCKWAVEHIT
 Effect_0146 = 2
 ;  Pierce Hit # EF_EARTHHIT
