@@ -51,6 +51,7 @@ prepDataFolder () {
   cp -r "$srcPath/remove_manners"/* "$dataPath/"
   cp -r "$srcPath/remove_pets_messages"/* "$dataPath/"
   cp -r "$srcPath/square_under_cursor"/* "$dataPath/"
+  cp -r "$srcPath/traps"/* "$dataPath/"
   cp -r "$srcPath/unknown"/* "$dataPath/"
   cp -r "$srcPath/woe_cades"/* "$dataPath/"
   # cp -r "$srcPath/woe_emp_flag"/* "$dataPath/"
